@@ -1,0 +1,14 @@
+[
+    {
+        "event_id": "gain_temporary_condition_emotionally_numb0",
+        "strings": [
+	        "m_c doesn't remember when {PRONOUN/m_c/subject} last felt much of anything.",
+    "m_c is having trouble deciding what {PRONOUN/m_c/subject} {VERB/mc_/are/is} feeling.",
+    "m_c is having trouble feeling things really deeply.",
+    "m_c is feeling quite numb."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

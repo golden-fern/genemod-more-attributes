@@ -1,0 +1,28 @@
+[
+    {
+        "event_id": "reveal_condition_name0",
+        "strings": [
+		    "m_c has gotten overwhelmed by noise {PRONOUN/m_c/poss} entire life and has finally figured out why!",
+    "m_c is happy to know that the reason {PRONOUN/m_c/subject} sometimes {VERB/m_c/lose/loses} words is because {PRONOUN/m_c/subject} {VERB/m_c/have/has} auditory processing disorder."
+
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_name2",
+        "strings": [
+		    "r_c reassures m_c's parents that {PRONOUN/m_c/subject} {VERB/m_c/aren't/isn't} disobedient, {PRONOUN/m_c/subject} just {VERB/m_c/have/has} auditory processing disorder.",
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

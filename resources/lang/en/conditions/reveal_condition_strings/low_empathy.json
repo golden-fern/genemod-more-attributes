@@ -1,0 +1,21 @@
+[
+    {
+        "event_id": "reveal_condition_low_empathy0",
+        "strings": [
+		"m_c has never been able to empathize with {PRONOUN/m_c/poss} clanmates the way other cats could."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_low_empathy1",
+        "strings": [
+		"r_c gets upset with m_c for not feeling empathy, but why can't {PRONOUN/r_c/subject} understand that this is just the way {PRONOUN/m_c/subject} {VERB/m_c/are/is}?"
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    }
+]

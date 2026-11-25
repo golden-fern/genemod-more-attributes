@@ -1,0 +1,32 @@
+[
+    {
+        "event_id": "chronic_light_sensitivity_migraine0",
+        "strings": [
+		"m_c has gotten a migraine.",
+		"m_c wakes up, {PRONOUN/m_c/poss} head pounding. No way {PRONOUN/m_c/subject} can leave the nest today, not with this migraine."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "chronic_light_sensitivity_migraine1",
+        "strings": [
+	"r_c0 brings m_c some poppy seeds to help with the pain from {PRONOUN/m_c/poss} migraine."
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

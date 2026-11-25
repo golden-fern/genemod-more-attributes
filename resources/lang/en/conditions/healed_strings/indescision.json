@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "healed_indecision0",
+        "strings": [
+	        "After a long period of deliberation, m_c has made a decision.",
+		"m_c no longer feels trapped by indecision.",
+		"m_c's period of indecision has ended."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

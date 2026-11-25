@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "dyslexia_word_loss0",
+        "strings": [
+		"No matter how hard {PRONOUN/m_c/subject} {VERB/m_c/try/tries}, {PRONOUN/m_c/subject} just can't find the words {PRONOUN/m_c/subject} wanted to say.",
+		"m_c is experiencing word loss.",
+		"Frustrated, m_c tries to find words similar to the ones {PRONOUN/m_c/subject} {VERB/m_c/were/was} trying to say."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

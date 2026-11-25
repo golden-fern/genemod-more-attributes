@@ -1,0 +1,34 @@
+[
+    {
+        "event_id": "orthostatic_hypotension_headache0",
+        "strings": [
+					"m_c sighs and ignores the headache {PRONOUN/m_c/subject} {VERB/m_c/get/gets} from {PRONOUN/m_c/poss} blood rushing to {PRONOUN/m_c/poss} head.",
+			"m_c feels cold and dizzy for a second before getting a headache.",
+			"m_c shakes the cobwebs out of {PRONOUN/m_c/poss} head when {PRONOUN/m_c/subject} {VERB/m_c/stand/stands} up and {PRONOUN/m_c/subject} {VERB/m_c/get/gets} a headache."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "orthostatic_hypotension_headache1",
+        "strings": [
+					"r_c notices m_c wince after standing up.",
+					"m_c gets a headache when standing up, and goes to ask r_c for some herbs."
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

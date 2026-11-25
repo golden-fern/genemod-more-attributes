@@ -1,0 +1,33 @@
+[
+    {
+        "event_id": "lost_tail_dizziness0",
+        "strings": [
+			"m_c stumbles in to r_c0's den and collapses, irritated at {PRONOUN/m_c/poss} dizziness.",
+						"r_c0 carefully coaches m_c through {PRONOUN/m_c/poss} exercises, ready to catch {PRONOUN/m_c/object} at any loss of balance.",
+
+			],
+        "involved_cats": {
+            "m_c": {},
+            "r_c0": {
+                "status": [
+                    "healer"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "lost_tail_dizziness1",
+        "strings": [
+		"Adjusting to life without a tail is difficult. m_c has gotten dizziness.",
+		"m_c is finding it particularly hard to keep {PRONOUN/m_c/poss} balance recently.",
+					"Unsurprisingly, the lack of tail still catches m_c off guard sometimes when {PRONOUN/m_c/subject} {VERB/m_c/slip/slips} into old habits, only to tumble over {PRONOUN/m_c/poss} own paws."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

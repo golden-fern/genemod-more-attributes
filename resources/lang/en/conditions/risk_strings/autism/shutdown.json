@@ -1,0 +1,29 @@
+[
+    {
+        "event_id": "autism_shutdown0",
+        "strings": [
+					"m_c has gone silent. {PRONOUN/m_c/subject/CAP} {VERB/m_c/do/does}n't know what's going on with {PRONOUN/m_c/object}, but {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} having a shutdown.",
+			"m_c looks like {PRONOUN/m_c/subject} {VERB/m_c/have/has} zoned out - but internally, m_c is just trying to keep {PRONOUN/m_c/poss} ears from falling off."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "autism_shutdown1",
+        "strings": [
+					"r_c finds m_c quiet and numb. Looks like things have gotten too overwhelming for {PRONOUN/m_c/object}.",
+					"r_c0 sits with m_c to comfort {PRONOUN/m_c/object} during {PRONOUN/m_c/poss} shutdown."
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

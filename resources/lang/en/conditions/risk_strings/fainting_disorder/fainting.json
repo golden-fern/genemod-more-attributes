@@ -1,0 +1,34 @@
+[
+    {
+        "event_id": "fainting_disorder_fainting0",
+        "strings": [
+			"m_c stood up too fast and has passed out.",
+			"m_c could feel it coming and sits down right before passing out.",
+			"m_c has fainted and before {PRONOUN/m_c/subject} could have fainted, m_c sat down.",
+			"m_c feels {PRONOUN/m_c/poss} paws go cold before {PRONOUN/m_c/subject} faint."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "fainting_disorder_fainting1",
+        "strings": [
+			"r_c pads over to check on m_c when {PRONOUN/r_c/subject} {VERB/m_c/realize/realizes} that m_c has fainted standing up.",
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

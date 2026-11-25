@@ -1,0 +1,29 @@
+[
+    {
+        "event_id": "lasting_grief_depressive_episode0",
+        "strings": [
+		"Upon concern from m_c's denmates, r_c0 goes to check on {PRONOUN/m_c/object} and finds {PRONOUN/m_c/object} staring blankly at the wall of the den."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c0": {
+                "status": [
+                    "medicine cat"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "lasting_grief_depressive_episode1",
+        "strings": [
+		"m_c has entered a depressive episode from {PRONOUN/m_c/poss} grief.",
+	"m_c can barely bring {PRONOUN/m_c/self} to get out of {PRONOUN/m_c/poss} nest recently."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

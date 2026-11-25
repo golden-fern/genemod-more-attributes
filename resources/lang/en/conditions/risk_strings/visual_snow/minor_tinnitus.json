@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "visual_snow_minor_tinnitus0",
+        "strings": [
+		"m_c can hear a small, tinny ringing in {PRONOUN/m_c/poss} ears.",
+		"A buzzing sound has been irritating m_c recently."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    } 
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "healed_paranoia0",
+        "strings": [
+			"m_c has taken a while, but after so long stewing in {PRONOUN/m_c/poss} own head it's a relief to be able to greet {PRONOUN/m_c/poss} Clanmates without any sort of suspicions of danger anymore.",
+		"m_c is so relieved to be able to have trust in {PRONOUN/m_c/poss} Clan and {PRONOUN/m_c/self} again.",
+		"m_c is no longer experiencing paranoia."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

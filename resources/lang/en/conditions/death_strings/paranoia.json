@@ -1,0 +1,25 @@
+[
+    {
+        "event_id": "death_paranoia0",
+        "strings": [
+            "When m_c's Clanmates warn {PRONOUN/m_c/object} of a badger in the area, {PRONOUN/m_c/subject} {VERB/m_c/do/does}n't trust them, paranoid that they're lying to {PRONOUN/m_c/object}. Unfortunately, {PRONOUN/m_c/subject} soon {VERB/m_c/discover/discovers} that they were telling the truth.",
+			"When m_c's Clanmates warn {PRONOUN/m_c/object} of dogs in the area, {PRONOUN/m_c/subject} {VERB/m_c/do/does}n't trust them, paranoid that they're lying to {PRONOUN/m_c/object}. Unfortunately, {PRONOUN/m_c/subject} soon {VERB/m_c/discover/discovers} that they were telling the truth.",
+			"When m_c's Clanmates warn {PRONOUN/m_c/object} of rogues in the area, {PRONOUN/m_c/subject} {VERB/m_c/do/does}n't trust them, paranoid that they're lying to {PRONOUN/m_c/object}. Unfortunately, {PRONOUN/m_c/subject} soon {VERB/m_c/discover/discovers} that they were telling the truth.",
+			"When m_c's Clanmates warn {PRONOUN/m_c/object} of a wolverine in the area, {PRONOUN/m_c/subject} {VERB/m_c/do/does}n't trust them, paranoid that they're lying to {PRONOUN/m_c/object}. Unfortunately, {PRONOUN/m_c/subject} soon {VERB/m_c/discover/discovers} that they were telling the truth.",
+			"When m_c's Clanmates warn {PRONOUN/m_c/object} of wolves in the area, {PRONOUN/m_c/subject} {VERB/m_c/do/does}n't trust them, paranoid that they're lying to {PRONOUN/m_c/object}. Unfortunately, {PRONOUN/m_c/subject} soon {VERB/m_c/discover/discovers} that they were telling the truth.",
+			"When m_c's Clanmates warn {PRONOUN/m_c/object} of coyotes in the area, {PRONOUN/m_c/subject} {VERB/m_c/do/does}n't trust them, paranoid that they're lying to {PRONOUN/m_c/object}. Unfortunately, {PRONOUN/m_c/subject} soon {VERB/m_c/discover/discovers} that they were telling the truth.",
+			"When m_c's Clanmates warn {PRONOUN/m_c/object} of a fox in the area, {PRONOUN/m_c/subject} {VERB/m_c/do/does}n't trust them, paranoid that they're lying to {PRONOUN/m_c/object}. Unfortunately, {PRONOUN/m_c/subject} soon {VERB/m_c/discover/discovers} that they were telling the truth."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        },
+        "death": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "history": "m_c died from a paranoia."
+            }
+        ]
+    }
+]

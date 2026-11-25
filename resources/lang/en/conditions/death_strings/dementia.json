@@ -1,0 +1,21 @@
+[
+    {
+        "event_id": "death_heart_attack0",
+        "strings": [
+            "m_c couldn't survive {PRONOUN/m_c/poss} heart attack.",
+			"m_c has died from a heart attack.",
+			"m_c has been killed by {PRONOUN/m_c/object} heart attack."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        },
+        "death": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "history": "m_c died from a heart attack."
+            }
+        ]
+    }
+]

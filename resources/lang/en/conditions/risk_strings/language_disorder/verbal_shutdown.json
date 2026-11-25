@@ -1,0 +1,29 @@
+[
+    {
+        "event_id": "language_disorder_verbal_shutdown0",
+        "strings": [
+		"m_c just can't handle using spojen language right now. {PRONOUN/m_c/subject} is having a verbal shutdown.",
+		"m_c has gotten a verbal shutdown."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "cond_risk1",
+        "strings": [
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

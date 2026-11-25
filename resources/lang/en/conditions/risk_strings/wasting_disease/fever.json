@@ -1,0 +1,25 @@
+[
+    {
+        "event_id": "wasting_disease_fever",
+        "strings": [
+		"m_c has a fever.",
+		"m_c's body temperature is dangerously high."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "wasting_disease_fever1",
+        "strings": [
+"r_c0 gives m_c some herbs to reduce {PRONOUN/m_c/poss} fever."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+				"status": {"healer", "healer apprentice"},
+				"group": {"match:m_c"}
+			}
+        }
+    }
+]

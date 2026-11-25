@@ -1,0 +1,31 @@
+[
+    {
+        "event_id": "low_blood_pressure_hypotension0",
+        "strings": [
+		"m_c's blood pressure has dropped.",
+		"m_c is experiencing hypotension."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "cond_risk1",
+        "strings": [
+		"m_c goes to see r_c: {PRONOUN/m_c/poss} blood pressure has dropped again."\
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

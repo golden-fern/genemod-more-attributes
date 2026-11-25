@@ -1,0 +1,36 @@
+[
+    {
+        "event_id": "reveal_condition_paranoid_personality_disorder0",
+        "strings": [
+		"m_c has always been paranoid of other cats, believing that everyone is out to get {PRONOUN/m_c/object}.",
+		"m_c is always on guard, acting like others are a danger to {PRONOUN/m_c/object}. {PRONOUN/m_c/subject} may have paranoid personality disorder."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_paranoid_personality_disorder1",
+        "strings": [
+		"m_c keeps accusing r_c of preying on {PRONOUN/m_c/poss} downfall, despite the fact that r_c has done no such thing. m_c may have paranoid personality disorder."
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_paranoid_personality_disorder2",
+        "strings": [
+		"r_c diagnoses m_c with paranoid personality disorder when m_c comes to {PRONOUN/r_c/object} saying that {PRONOUN/m_c/poss} clanmates are out to get them again."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "event_id": "ibs_constipation0",
+        "strings": [
+						"m_c feels incredibly miserable, bloated and stuffed full without being able to get rid of the feeling.",
+				"Pitifully, m_c has spent most of the day in the dirtplace uselessly trying to make dirt.",
+				"m_c has been horribly constipated lately."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "ibs_constipation1",
+        "strings": [
+						"Huffing and puffing, m_c goes to r_c0 to ask if {PRONOUN/r_c/subject} {VERB/r_c/have/has} anything that can help in the dirtplacing department.",
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

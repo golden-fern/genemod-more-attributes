@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "damaged_throat_selective_mutism0",
+        "strings": [
+		"On days when {PRONOUN/m_c/poss} damaged throat hurts too much, {PRONOUN/m_c/subject} prefers to communicate with tail signals instead.",
+		"While m_c can still talk some days, it's just easier for {PRONOUN/m_c/object} to remain silent most of the time."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

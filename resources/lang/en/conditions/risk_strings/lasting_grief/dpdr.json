@@ -1,0 +1,29 @@
+[
+    {
+        "event_id": "lasting_grief_dpdr0",
+        "strings": [
+		"r_c0 watches over m_c as {PRONOUN/m_c/subject] {VERB/m_c/experience/experiences} yet another eposide of derealization. r_c0 worries it may not go away forever."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c0": {
+                "status": [
+                    "medicine cat"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "lasting_grief_dpdr1",
+        "strings": [
+		"m_c can barely stand being present in the world, what with {PRONOUN/m_c/poss} grief eating {PRONOUN/m_c/object} up inside.",
+		"m_c's grief has caused {PRONOUN/m_c/object} to develop derealization-depersonalization disorder."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

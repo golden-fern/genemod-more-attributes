@@ -1,0 +1,36 @@
+[
+    {
+        "event_id": "reveal_condition_schizoid_personality_disorder0",
+        "strings": [
+		"m_c has never really had an interest in forming close relationships with {PRONOUN/m_c/poss} clanmates. {PRONOUN/m_c/subject} may have schizoid personality disorder.",
+		"m_c rarely expresses strong emotions, often confusing {PRONOUN/m_c/poss} clanmates, but it's never bothered m_c."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_schizoid_personality_disorder1",
+        "strings": [
+		"m_c has always enjoyed doing things alone rather than with others, no matter how often r_c tries to invite {PRONOUN/m_c/object} to join {PRONOUN/r_c/object}."
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_schizoid_personality_disorder2",
+        "strings": [
+		"Despite the concern of m_c's denmates, r_c says that m_c's lack of interests in friendships is not a concern: m_c just has schizoid personality disorder."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

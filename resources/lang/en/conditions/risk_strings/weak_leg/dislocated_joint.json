@@ -1,0 +1,29 @@
+[
+    {
+        "event_id": "weak_leg_dislocated_joint0",
+        "strings": [
+			"m_c winces as r_c0 gently applies moss to {PRONOUN/m_c/poss} dislocated joint."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c0": {
+                "status": [
+                    "healer"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "weak_leg_dislocated_joint1",
+        "strings": [
+			"m_c has dislocated the joint in {PRONOUN/m_c/poss} bad leg.",
+			"m_c stepped wrong on {PRONOUN/m_c/poss} bad leg and dislocated {PRONOUN/m_c/poss} joint."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

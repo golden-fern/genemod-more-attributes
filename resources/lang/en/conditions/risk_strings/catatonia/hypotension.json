@@ -1,0 +1,30 @@
+[
+    {
+        "event_id": "cond_risk0",
+        "strings": [
+		"m_c's blood pressure has dropped dangerously low.",
+		"m_c has gotten hypotension as a result of {PRONOUN/m_c/poss} catatonia."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "cond_risk1",
+        "strings": [
+		"r_c0 is extremely worried about m_c: {PRONOUN/m_c/poss} catatonia has caused {PRONOUN/m_c/poss} blood pressure to drop to unhealthy levels."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

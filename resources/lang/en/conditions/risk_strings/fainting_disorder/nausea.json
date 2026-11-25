@@ -1,0 +1,30 @@
+[
+    {
+        "event_id": "fainting_disorder_hausea0",
+        "strings": [
+		"m_c became nauseous when {PRONOUN/m_c/subject} stood up.",
+		"m_c has been experiencing some nausea."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "fainting_disorder_hausea1",
+        "strings": [
+		"m_c walks carefully to r_c's den, asking for some herbs to help soothe {PRONOUN/m_c/poss} nausea."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

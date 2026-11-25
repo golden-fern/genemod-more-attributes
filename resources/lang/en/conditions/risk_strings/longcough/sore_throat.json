@@ -1,0 +1,31 @@
+[
+    {
+        "event_id": "longcough_sore_throat0",
+        "strings": [			"All the coughing has left m_c's throat ragged and torn feeling."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "longcough_sore_throat1",
+        "strings": [
+					"With all the coughing from m_c's longcough r_c is unsurprised when {PRONNOUN/m_c/subject} {VERB/m_c/get/gets} a sore throat.",
+			"With a pained grumble m_c wanders towards r_c0's den hoping for some honey to sooothe {PRONNOUN/m_c/poss} throat.",
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "event_id": "reveal_condition_ocpd0",
+        "strings": [
+		"m_c has always been focused on order and control far more than {PRONOUN/m_c/poss} clanmates. {PRONOUN/m_c/subject} may have obsessive-compulsive personality disorder.",
+		"m_c has always been a perfectionist, to the point of being unable to complete a tasdk if it isn't just right. {PRONOUN/m_c/subject} may have obsessive-compulsive personality disorder.",
+		"m_c keeps insisting that {PRONOUN/m_c/poss} way is the right way to do things, despite {PRONOUN/m_c/poss} clanmates' frustration."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_ocpd1",
+        "strings": [
+		"r_c has finally gotten fed up with m_c's complete unwillingness to compromise and insists that {PRONOUN/m_c/subject} talk to r_c1 about it. THe next day, m_c mumbles an apology and tells r_c that {PRONOUN/m_c/subject} {VERB/m_c/have/has} obsessive-compulsive personality disorder."
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {},
+			"r_c1": {
+				"status": [ "healer", "healer apprentice" ]
+			}
+        }
+    },
+]

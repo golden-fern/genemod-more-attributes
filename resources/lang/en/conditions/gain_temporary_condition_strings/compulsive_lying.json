@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "gain_temporary_condition_compulsive_lying0",
+        "strings": [
+	        "m_c has been lying about little things. {PRONOUN/m_c/poss/CAP} compulsive lying has landed them unable to do patrols.",
+    "While {PRONOUN/m_c/poss} clanmates understand that m_c is lying as a trauma response, that doesn't mean that {PRONOUN/m_c/subject} {VERB/m_c/haven't/hasn't} caused damage."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

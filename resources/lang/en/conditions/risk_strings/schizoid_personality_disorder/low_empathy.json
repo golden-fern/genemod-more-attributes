@@ -1,0 +1,14 @@
+[
+    {
+        "event_id": "schizoid_personality_disorder_low_empathy0",
+        "strings": [
+		"m_c just can't feel empathy for {PRONOUN/m_c/poss} clanmates as strongly as other cats.",
+		"m_c has low empathy.",
+		"m_c struggles to empathize with {PRONOUN/m_c/poss} clanmates.",
+		"m_c has always felt less empathy for others than {PRONOUN/m_c/poss} peers."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "gain_temporary_condition_indecision0",
+        "strings": [
+	        "m_c just can't seem to make a descicion lately.",
+			"m_c has been experiencing a bout of indesicion."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "event_id": "reveal_condition_speech_sound_disorder0",
+        "strings": [
+		"m_c has always spoken a bit differently than other cats, sometimes omitting or changing sounds. {PRONOUN/m_c/subject} may have a speech sound disorder.",
+		"m_c often struggles to pronounce words that {PRONOUN/m_c/poss} clanmates can say easily. {PRONOUN/m_c/subject} may have a speech sound disorder."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_speech_sound_disorder1",
+        "strings": [
+		"While talking with r_c, m_c consistently pronounces certain words and sounds differently. r_c gently suggests that {PRONOUN/m_c/subject} may have a speech sound disorder."
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_speech_sound_disorder2",
+        "strings": [
+		"when r_c assesses m_c's speech, {PRONOUN/r_c/subject} tells m_c that {PRONOUN/m_c/subject} {VERB/m_c/have/has} a speech sound disorder, and that's why {PRONOUN/m_c/subject} has always spoken differently than other cats.",
+		"During a routine health check, m_c keeps pronouncing words differently than r_c expects. When r_c assesses {PRONOUN/m_c/poss} speech, {PRONOUN/r_c/subject} diagnoses m_c with a speech sound disorder."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

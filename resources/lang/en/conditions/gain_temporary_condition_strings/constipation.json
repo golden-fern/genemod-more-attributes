@@ -1,0 +1,11 @@
+[
+    {
+        "event_id": "gain_temporary_condition_constipation0",
+        "strings": [
+	        "m_c has become constipated."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

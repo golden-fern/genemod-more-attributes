@@ -1,0 +1,28 @@
+[
+    {
+        "event_id": "weak_leg_joint_pain0",
+        "strings": [
+			"m_c goes to r_c0, complaining that {PRONOUN/m_c/poss} knee has been hurting more than usual. r_c0 informs m_c that it may be permanent."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c0": {
+                "status": [
+                    "medicine cat"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "weak_leg_bad_knee1",
+        "strings": [
+		"m_c's weak leg has begun to hurt whenever {PRONOUN/m_c/subject} {VERB/m_c/pot/puts} pressure on the knee."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

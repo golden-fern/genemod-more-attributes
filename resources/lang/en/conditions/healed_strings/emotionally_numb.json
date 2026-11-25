@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "healed_emotionally_numb0",
+        "strings": [
+	        "m_c is no longer feeling emotionally numb.",
+			"m_c is back in touch with {PRONOUN/m_c/poss} emotions."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

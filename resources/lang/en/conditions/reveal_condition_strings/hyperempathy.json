@@ -1,0 +1,22 @@
+[
+    {
+        "event_id": "reveal_condition_hyperempathy0",
+        "strings": [
+		"m_c always feels too much, too strongly. {PRONOUN/m_c/subject/CAP} may have hyperempathy.",
+		"m_c has always felt stronger empathy than {PRONOUN/m_c/poss} clanmtes."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_hyperempathy1",
+        "strings": [
+		"When r_c cries, m_c just can't hold back the flood of tears that washes ofer {PRONOUN/m_c/object}, much to other cats' confusion."
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    }
+]

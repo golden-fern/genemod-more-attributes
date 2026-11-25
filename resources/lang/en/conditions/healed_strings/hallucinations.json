@@ -1,0 +1,28 @@
+[
+    {
+        "event_id": "healed_hallucinations0",
+        "strings": [
+	        "m_c is relieved when {PRONOUN/m_c/poss} head clears and {PRONOUN/m_c/subject} {VERB/m_c/are/is} no longer experiencing confusion or distress over what {PRONOUN/m_c/subject} {VERB/m_c/see/sees} and {VERB/m_c/hear/hears}.",
+		"m_c has stopped hallucinating things.",
+		"m_c is no longer experiencing hallucinations."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "healed_hallucinations1",
+        "strings": [
+	        "With r_c's help, m_c is able to tell the difference between hallucinations and reality again.",
+			"r_c has helped m_c to recover from {PRONOUN/m_c/poss} hallucinations."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c": {
+				"relationship_status": [
+					"likes"
+				]
+			}
+        }
+    }
+]

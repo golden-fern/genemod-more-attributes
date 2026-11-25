@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "gain_temporary_condition_tremors0",
+        "strings": [
+	        "m_c's paws keep shaking uncontrollably.",
+    "m_c is unable to keep {PRONOUN/m_c/poss} paws steady, no matter how hard {PRONOUN/m_c/subject} {VERB/m_c/try/tries}."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

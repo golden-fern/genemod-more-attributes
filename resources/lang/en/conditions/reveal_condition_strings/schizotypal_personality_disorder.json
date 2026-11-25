@@ -1,0 +1,37 @@
+[
+    {
+        "event_id": "reveal_condition_schizotypal_personality_disorder0",
+        "strings": [
+		"m_c has always had peculiar behaviors, and strange, magical beliefs. {PRONOUN/m_c/subject} may have schizotypal personality disorder.",
+		"m_c's unshakeable belief that {PRONOUN/m_c/subject} {VERB/m_c/were/was} blassed by StarClan has always made it difficult for {PRONOUN/m_c/object} to maintain close relationships.",
+		"m_c keeps interpreting normal, everyday events as paranormal. {PRONOUN/m_c/subject} may have schizotypal personality disorder."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_schizotypal_personality_disorder1",
+        "strings": [
+		"m_c has always had very few close friends, {PRONOUN/m_c/poss} strange beliefs driving others away. r_c suggests that {PRONOUN/m_c/subject} may have schizotypal personality disorder."
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_schizotypal_personality_disorder2",
+        "strings": [
+		"r_c tells m_c that the reason {PRONOUN/m_c/subject} can't seem to connect with {PRONOUN/m_c/poss} clanmates could be because {PRONOUN/m_c/subject} has schizotypal personality disorder."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

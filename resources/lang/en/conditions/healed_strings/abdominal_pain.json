@@ -1,0 +1,14 @@
+[
+    {
+        "event_id": "healed_abdominal_pain0",
+        "strings": [
+	        "m_c is no longer experiencing abdominal pain.",
+			"To m_c's immense relief, {PRONOUN/m_c/poss} abdominal pains have passed.",
+		"After so much suffering m_c's abdominal pains are over.",
+		"m_c's abdominal pain has abated."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

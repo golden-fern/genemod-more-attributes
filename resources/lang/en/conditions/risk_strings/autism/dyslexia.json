@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "autism_dyslexia0",
+        "strings": [
+		            "Being autistic affects how m_c process words. Whenever {PRONOUN/m_c/subject} speaks, it comes out as a jumbled mess."
+"m_c has dyslexia."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

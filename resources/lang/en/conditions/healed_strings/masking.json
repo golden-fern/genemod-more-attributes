@@ -1,0 +1,26 @@
+[
+    {
+        "event_id": "healed_masking0",
+        "strings": [
+	        "m_c is no longer masking.",
+		"It's a relief to the Clan to see m_c back to {PRONOUN/m_c/poss} normal self."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "healed_masking1",
+        "strings": [
+	        "r_c notices how different m_c is acting and assures {PRONOUN/m_c/object} that they don't have to keep masking."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c": {
+				"relationship_status": [
+					"likes"
+				]
+			}
+        }
+    }
+]

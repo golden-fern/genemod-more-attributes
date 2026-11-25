@@ -1,0 +1,21 @@
+[
+    {
+        "event_id": "death_insomnia0",
+        "strings": [
+        "m_c died from having too little sleep.",
+    "m_c's lack of sleep killed {PRONOUN/m_c/object}.",
+    "Although m_c's lack of sleep really did a number on {PRONOUN/m_c/poss} body, the medicine cat didn't think it would kill {PRONOUN/m_c/object}."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        },
+        "death": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "history": "m_c died from a insomnia."
+            }
+        ]
+    }
+]

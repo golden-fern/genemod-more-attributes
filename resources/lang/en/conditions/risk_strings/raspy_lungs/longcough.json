@@ -1,0 +1,29 @@
+[
+    {
+        "event_id": "raspy_lungs_longcough0",
+        "strings": [
+		"As r_c0 listens to m_c's breathing, {PRONOUN/r_c0/subject} {VERB/r_c0/confirm/confirms} m_c's fear: this isn't the normal sound of {PRONOUN/m_c/poss} raspy lungs. m_c has developed longcough."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c0": {
+                "status": [
+                    "healer"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "raspy_lungs_longcough1",
+        "strings": [
+					"m_c's raspy lungs have left {PRONOUN/m_c/object} with longcough."
+"m_c's raspy lungs have caused {PRONOUN/m_c/object} to develop longcough."
+],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

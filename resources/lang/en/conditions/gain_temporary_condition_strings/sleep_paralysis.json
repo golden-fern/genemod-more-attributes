@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "gain_temporary_condition_sleep_paralysis0",
+        "strings": [
+	        "m_c has been suffering from sleep paralysis.",
+			"When m_c wakes up, {PRONOUN/m_c/subject} can see figures moving just outside {PRONOUN/m_c/poss} den.",
+			"m_c is stuck frozen in place when {PRONOUN/m_c/subject} {VERB/m_c/wake/wakes} up."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

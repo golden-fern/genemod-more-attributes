@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "gain_temporary_condition_silvercough0",
+        "strings": [
+			"m_c has gotten silvercough.",
+    "m_c is sick with silvercough."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

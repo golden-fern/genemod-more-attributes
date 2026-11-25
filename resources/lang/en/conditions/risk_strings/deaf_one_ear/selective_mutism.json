@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "deaf_one_ear_selective_mutism0",
+        "strings": [
+		"Some days, m_c decides not to speak.",
+		"m_c will sometimes communicate nonverbally instead of with words."
+		"While m_c can still talk some days, it's just easier for {PRONOUN/m_c/object} to remain silent some."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

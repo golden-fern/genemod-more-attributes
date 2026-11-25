@@ -1,0 +1,22 @@
+[
+    {
+        "event_id": "death_hypotension0",
+        "strings": [
+            "m_c couldn't survive {PRONOUN/m_c/poss} hypotension.",
+			"m_c has died from hypotension.",
+			"m_c has been killed by {PRONOUN/m_c/object} hypotension.",
+			"m_c's blood pressure dropped too low and {PRONOUN/m_c/subject} couldn't survive."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        },
+        "death": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "history": "m_c died from hypotension."
+			}
+        ]
+    }
+]

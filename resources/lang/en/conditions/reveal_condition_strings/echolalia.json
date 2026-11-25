@@ -1,0 +1,37 @@
+[
+    {
+        "event_id": "reveal_condition_echolalia0",
+        "strings": [
+		"m_c has echolalia."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_echolalia1",
+        "strings": [
+		    "When r_c mews hello to m_c, m_c mews it back a dozen times. It seems {PRONOUN/m_c/subject}{VERB/m_c/have/has} echolalia.",
+
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_echolalia2",
+        "strings": [
+		    "m_c often catches {PRONOUN/m_c/self} repeating the same word over and over. r_c suggests it might be echolalia."
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

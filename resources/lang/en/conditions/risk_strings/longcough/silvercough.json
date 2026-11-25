@@ -1,0 +1,31 @@
+[
+    {
+        "event_id": "longcough_silvercough0",
+        "strings": [
+		"m_c's longcough has caused {PRONOUN/m_c/object} to develop silvercough."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "longcough_silvercough1",
+        "strings": [
+						"It's whitecough season again, and r_c0's been checking each Clanmate for the illness. m_c is surprised when r_c0 shakes {PRONOUN/r_c/poss} head and calls {PRONOUN/m_c/object} into the medicine den, it seems {PRONOUN/m_c/poss} usual cough has masked the silvercough.",
+				"m_c's coughing has been a lot worse and a lot more frequent recently. Talking with r_c0, {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} unsurprised to discover it's compounded by silvercough."
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "event_id": "death_anaphylaxis0",
+        "strings": [
+            "m_c died from anaphylaxis.",
+			"m_c couldn't recover from {PRONOUN/m_c/object} anaphylaxis."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        },
+        "death": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "history": "m_c died from anaphylaxis."
+            }
+        ]
+    }
+]

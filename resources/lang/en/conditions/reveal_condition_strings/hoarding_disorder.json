@@ -1,0 +1,36 @@
+[
+    {
+        "event_id": "reveal_condition_hoarding_disorder0",
+        "strings": [
+		"Despite how full m_c's nest has gotten, {PRONOUN/m_c/subject} just can't seem to get rid of any of the trinkets {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} collected.",
+		"m_c is always hoarding objects, to the point that other cats are noticing."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_hoarding_disorder1",
+        "strings": [
+		"r_c asks m_c why {PRONOUN/m_c/subject} can't seem to throw away any of the items they don't use, and m_c defensively snaps that {PRONOUN/m_c/subject} might need them in the future."
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_hoarding_disorder2",
+        "strings": [
+		"After one too many clanmates came to r_c concerned about m_c's hoarding habit, r_c diagnosed {PRONOUN/m_c/object} with hoarding disorder."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

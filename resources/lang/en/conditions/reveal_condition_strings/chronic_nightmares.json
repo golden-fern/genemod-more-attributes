@@ -1,0 +1,36 @@
+[
+    {
+        "event_id": "reveal_condition_chronic_nightmares0",
+        "strings": [
+		"m_c's nightmares have always been worse than other cats, and they never seem to go away.",
+	"m_c has chronic ngihtmares."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_chronic_nightmares1",
+        "strings": [
+		"It seems to r_c like every night m_c is having a nightmare."
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_chronic_nightmares2",
+        "strings": [
+		"after m_c comes into r_c's den in the middle of the night, whimpering about {PRONOUN/m_c/poss} nightmares yet again, r_c tells {PRONOUN/m_c/object} that {PRONOUN/m_c/subject} may have chronic nightmares."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "healed_light_sensitivity0",
+        "strings": [
+	        "m_c's eyes are no longer stinging at every light.",
+			"m_c is able to go outside again without the light hurting {PRONOUN/m_c/poss} eyes.",
+			"m_c's light sensitivity has ended."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "event_id": "wasting_disease_stroke",
+        "strings": [
+		"m_c has had a stroke.",
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "wasting_disease_stroke1",
+        "strings": [
+"A clanmate rushes to get r_c0 as soon as m_c starts displaying signs of a stroke."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+				"status": {
+					"healer",
+					"healer apprentice"
+				},
+				"group": {
+					"match:m_c"
+				}
+			}
+        }
+    }
+]

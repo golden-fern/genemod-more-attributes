@@ -1,0 +1,32 @@
+[
+    {
+        "event_id": "schizotypal_personality_disorder_risk0",
+        "strings": [
+		"m_c has been more paranoid than usual this moon.",
+		"m_c doubts {PRONOUN/m_c/poss} clanmates' loyalty, despite having no reason to.",
+		"m_c has been paranoid about others \"reading {PRONOUN/m_c/object} mind\"."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "schizotypal_personality_disorder_risk1",
+        "strings": [
+		"Despite reassurances from r_c0, m_c insists that everyone is out to get {PRONOUN/m_c/object}.",
+		
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

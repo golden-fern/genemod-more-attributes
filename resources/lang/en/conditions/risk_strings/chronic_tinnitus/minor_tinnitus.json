@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "chronic_tinnitus_minor_tinnitus0",
+        "strings": [
+		"m_c is irritated by the minor ringing in {PRONOUN/m_c/poss} ears.",
+		"m_c has gotten minor tinnitus.",
+		"m_c's ears are ringing."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

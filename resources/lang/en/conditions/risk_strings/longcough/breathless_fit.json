@@ -1,0 +1,32 @@
+[
+    {
+        "event_id": "longcough_breathless_fit0",
+        "strings": [
+					"m_c feels like {PRONNOUN/m_c/self} coughing will never stop, and worse-- {PRONOUN/m_c/poss/CAP} breathing doesn't feel right anymore.",
+			"All the coughing from m_c's longcough has led to a breathless fit."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "longcough_breathless_fit1",
+        "strings": [
+					"r_c0 gathers as much of the betony and mullein as {PRONOUN/r_c/subject} can for aiding m_c in {PRONNOUN/m_c/poss} struggles to catch {PRONNOUN/m_c/poss} breath."
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

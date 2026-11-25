@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "language_disorder_word_loss0",
+        "strings": [
+		"m_c just can't find the word {PRONOUN/m_c/subject} {VERB/m_c/want/wants} to say, no matter how hard {PRONOUN/m_c/subject} {VERB/m_c/try/tries}.",
+		"m_c has been experiencing word loss.",
+		"m_c struggles to find a word that is similar to the one {PRONOUN/m_c/subject} wanted to say."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

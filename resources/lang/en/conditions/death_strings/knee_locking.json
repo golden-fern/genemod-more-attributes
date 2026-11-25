@@ -1,0 +1,19 @@
+[
+    {
+        "event_id": "death_knee_locking0",
+        "strings": [
+        "m_c took a bad fall and by the time a Clanmate responded... {PRONOUN/m_c/subject} {VERB/m_c/were/was} gone."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        },
+        "death": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "history": "m_c died from a bad fall caused by knee locking."
+            }
+        ]
+    }
+]

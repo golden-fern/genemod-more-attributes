@@ -1,0 +1,19 @@
+[
+    {
+        "event_id": "death_abdominal_pain0",
+        "strings": [
+		"As carefully as m_c was cared for it looks like whatever was causing {PRONOUN/m_c/poss} abdominal pains was much more dangerous than anyone knew."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        },
+        "death": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "history": "m_c died from abdominal pain."
+            }
+        ]
+    }
+]

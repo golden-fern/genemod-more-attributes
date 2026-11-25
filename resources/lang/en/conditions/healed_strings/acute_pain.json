@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "healed_acute_pain0",
+        "strings": [
+	        "m_c's acute pain has ended.",
+			"m_c is no longer experiencing acute pain.",
+			"Much to m_c's relief, the acute pain {PRONOUN/m_c/subject} {VERB/m_c/were/was} experiencing is gone."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

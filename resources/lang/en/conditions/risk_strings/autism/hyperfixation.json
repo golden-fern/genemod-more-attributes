@@ -1,0 +1,29 @@
+[
+    {
+        "event_id": "autism_hyperfixation0",
+        "strings": [
+						"While this doesn't feel like it will become part of {PRONOUN/m_c/poss} entire world, m_c has spent quite some time talking about a new topic with {PRONOUN/m_c/poss} Clanmates.",
+				"m_c seems to have been doing nothing but training recently, focused on incorporating a new specific set of moves into {PRONOUN/m_c/poss} hunting style.",
+				"In the past few weeks, m_c has gotten deeply interested in collecting together feathers and identifying which bird they came from.",
+"m_c has gotten a new hyperfixation."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "autism_hyperfixation1",
+        "strings": [
+						"m_c has been spinning in circles around r_c0 as {PRONOUN/m_c/subject} {VERB/m_c/talk/talks} about a new interest that has caught {PRONOUN/m_c/poss} attention.",
+"m_c has gotten deeply interested in identifying herbs the past few weeks, talking r_c0's ear off about it!"
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

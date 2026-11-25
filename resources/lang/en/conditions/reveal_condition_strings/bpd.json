@@ -1,0 +1,39 @@
+[
+    {
+        "event_id": "reveal_condition_bpd0",
+        "strings": [
+		    "m_c has a strong fear of abandonment and being left behind, to the point it is affecting {PRONOUN/m_c/poss} relationships."
+
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_bpd1",
+        "strings": [
+		    "While talking to r_c, m_c explains that {PRONOUN/m_c/subject} {VERB/m_c/feel/feels} emotions so strongly that some days it feels like {PRONOUN/m_c/poss} emotions are going to explode from {PRONOUN/m_c/object}. {PRONOUN/m_c/poss/CAP} Clanmate encourages them to talk to the healer, and m_c discovers that {PRONOUN/m_c/subject} {VERB/m_c/have/has} borderline personality disorder.",
+    "Some of m_c's Clanmates notice that sometimes m_c behaves recklessly and struggles to trust others, and r_c tells {PRONOUN/m_c/object} that {PRONOUN/m_c/subject} may have borderline personality disorder."
+
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_bpd2",
+        "strings": [
+		    "r_c notices m_c struggles with strong and intense emotions and thinks that {PRONOUN/m_c/subject} may have borderline personality disorder."
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

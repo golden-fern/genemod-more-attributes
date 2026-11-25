@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "gain_temporary_condition_ongoing_psychosis0",
+        "strings": [
+            "Despite interventions, m_c's psychotic symptoms have only deepened.",
+    "Attempts to calm m_c have been unsuccessful - {PRONOUN/m_c/subject} is suffering from ongoing psychosis."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "event_id": "gain_temporary_condition_catatonia0",
+        "strings": [
+			"m_c has entered a catatonic state, not responding to anything around {PRONOUN/m_c/object}.",
+			"m_c is experiencing catatonia."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+		"event_id": "gain_temporary_condition_catatonia1",
+		"strings": [
+			"When r_c went to get m_c for their patrol, {PRONOUN/r_c/subject} noticed m_c was in a catatonic state.",
+			"r_c tries to talk to m_c, but m_c doesn't even seem to notice {PRONOUN/r_c/object}. It seems m_c is in a catatonic state."
+		],
+		"involved_cats": {
+			"m_c": {},
+			"r_c": {
+				"status": ["warrior", "warrior apprentice", "mediator", "mediator apprentice", "deputy", "leader"]
+			}
+		}
+	},
+	{
+		"event_id": "gain_temporary_condition_catatonia2",
+		"strings": [
+			"m_c has entered a catatonic state. {PRONOUN/m_c/subject} {VERB/m_c/were/was} brought to r_c's den for monitoring and care."
+		],
+		"involved_cats": {
+			"m_c": {},
+			"r_c": {
+				"status": ["healer", "healer apprentice"]
+			}
+		}
+	},
+	{
+		"event_id": "gain_temporary_condition_catatonia3",
+		"strings": [
+			"r_c is worried about m_c: {PRONOUN/m_c/subject} is just sitting there, not even responding to {PRONOUN/m_c/poss} mate. Gently, r_c1 informs r_c that m_c is in a catatonic state."
+		],
+		"involved_cats": {
+			"m_c": {},
+			"r_c": {
+				"relationship_status": ["mates"]
+			},
+			"r_c1": {
+				"status": ["healer", "healer apprentice"]
+			}
+		}
+	}
+]

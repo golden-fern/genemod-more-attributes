@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "gain_temporary_condition_masking0",
+        "strings": [
+	       "m_c's not acting like {PRONOUN/m_c/self} recently.",
+		"It would appear that m_c's begun to mask more often."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

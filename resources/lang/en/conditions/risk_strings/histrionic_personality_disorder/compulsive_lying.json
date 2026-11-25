@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "histrionic_personality_disorder_compulsive_lying0",
+        "strings": [
+		"m_c feels the need to lie to make {PRONOUN/m_c/self} seem more grandiose.",
+		"m_c tries to explain to {PRONOUN/m_c/poss} clanmates that {PRONOUN/m_c/subject} {VERB/m_c/aren't/isn't} lying on purpose.",
+					"m_c often finds it easier to lie. All of these lies have piled up and gotten m_c into trouble."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

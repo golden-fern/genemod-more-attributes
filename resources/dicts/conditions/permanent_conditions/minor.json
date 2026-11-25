@@ -10,7 +10,9 @@
         "progression": {},
         "risks": {
             "sore": 0.1,
-            "joint_pain": 0.05
+            "joint_pain": 0.05,
+			"bad_knee": 0.01,
+			"dislocated_joint": 0.02
         },
         "treatment_strength": {
             "1": [
@@ -44,7 +46,8 @@
         "progression": {},
         "risks": {
             "infection": 0.05,
-            "phantom_pain": 0.1
+            "phantom_pain": 0.1,
+			"dizziness": 0.01
         },
         "treatment_strength": {
             "1": [
@@ -88,7 +91,15 @@
         "can_be_congenital": true,
         "can_be_acquired": true,
         "moons_until_discovery": [2,7],
-        "mortality": {},
+        "mortality": {
+			"newborn": 0.1,
+			"kitten": 0.05,
+			"adolescent": 0.02,
+			"young adult": 0.01,
+			"adult": 0.01,
+			"senior adult": 0.02,
+			"senior": 0.05
+		},
         "immune_system_effect": 0.0,
         "progression": {},
         "risks": {
@@ -124,7 +135,10 @@
                 "when": "CONTINUING"
             }
         },
-        "risks": {},
+        "risks": {
+			"tinnitus": 0.05,
+			"chronic_tinnitus": 0.01
+		},
         "treatment_strength": {
             "1": [],
             "2": [],
@@ -148,7 +162,10 @@
                 "when": "CONTINUING"
             }
         },
-        "risks": { },
+        "risks": {
+			"tinnitus": 0.065,
+			"chronic_tinnitus": 0.015
+		},
         "treatment_strength": {
             "1": [ ],
             "2": [ ],
@@ -169,6 +186,7 @@
         "progression": {},
         "risks": {
             "joint_pain": 0.4,
+            "acute_pain": 0.1,
             "exhausted": 0.2
         },
         "treatment_strength": {
@@ -191,10 +209,11 @@
         "can_be_acquired": false,
         "moons_until_discovery": [2,5],
         "mortality": {},
-        "immune_system_effect": 0.0,
+        "immune_system_effect": 0.05,
         "progression": {},
         "risks": {
-            "running_nose": 0.1
+            "running_nose": 0.1,
+			"anaphylaxis": 0.02
         },
         "treatment_strength": {
             "1": [
@@ -216,6 +235,9 @@
             "grief_stricken": 0.2,
             "absent": 0.02,
             "persistent_exhaustion": 0.06,
+            "dpdr": 0.01,
+			"depressive episode": 0.1,
+            "persistent_exhauastion": 0.06,
             "exhausted": 0.2
         },
         "treatment_strength": {
@@ -239,7 +261,9 @@
         "mortality": {},
         "immune_system_effect": 0.0,
         "progression": {},
-        "risks": {},
+        "risks": {
+			"verbal_shutdown": 0.5
+		},
         "treatment_strength": {
             "1": [
                 "poppy",
@@ -259,7 +283,8 @@
         "immune_system_effect": 0.0,
         "progression": {},
         "risks": {
-            "sore_throat": 0.4
+            "sore_throat": 0.4,
+			"selective_mutism": 0.05
         },
         "treatment_strength": {
             "1": [
@@ -283,7 +308,9 @@
         "mortality": {},
         "immune_system_effect": 0.0,
         "progression": {},
-        "risks": {},
+        "risks": {
+			"selective_mutism": 0.01
+		},
         "treatment_strength": {
             "1": [],
             "2": [],
@@ -398,7 +425,10 @@
             "persistent_headaches": 0.005,
             "severe_headache": 0.01,
             "headache": 0.025,
-            "sunburn": 0.05
+            "sunburn": 0.05,
+			"light_sensitivity": 0.05,
+			"chronic_light_sensitivity": 0.01,
+			"migraine": 0.05
         },
         "treatment_strength": {
             "1": [ "poppy", "juniper" ],
@@ -419,7 +449,10 @@
             "failing_eyesight": 0.001,
             "persistent_headaches": 0.005,
             "severe_headache": 0.02,
-            "headache": 0.05
+            "headache": 0.05,
+			"light_sensitivity": 0.03,
+			"chronic_light_sensitivity": 0.008,
+			"migraine": 0.02
         },
         "treatment_strength": {
             "1": [ "poppy", "juniper" ],
@@ -463,5 +496,1201 @@
             "2": [ ],
             "3": [ ]
         }
+    },
+	"hypermobility": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+        "moons_until_discovery": [ 1, 2 ],
+        "mortality": { },
+        "immune_system_effect": 0.0,
+        "progression": { },
+        "risks": {
+            "bruises": 0.01,
+            "sprain": 0.01,
+			"joint_pain": 0.1,
+			"fatigue": 0.05,
+			"dislocated_joint": 0.05,
+			"subluxated_joint": 0.03
+        },
+        "treatment_strength": {
+            "1": [ ],
+            "2": [ ],
+            "3": [ ]
+        }
+    },
+	"visual snow": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+		"genetic_only": false,
+        "moons_until_discovery": [ 1, 3 ],
+        "mortality": {},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+            "light_sensitivity": 0.05,
+			"minor_tinnitus": 0.005,
+			"migraine": 0.01
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"chronic_light_sensitivity": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ ],
+        "mortality": {},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+            "light_sensitivity": 0.1,
+			"headache": 0.1,
+			"migraine": 0.05,
+			"failing_eyesight": 0.01
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"chronic_tinnitus": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [2, 12],
+        "mortality": {},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+            "tinnitus": 0.1,
+			"minor_tinnitus": 0.2
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"lazy_eye": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 1, 3 ],
+        "mortality": {},
+        "immune_system_effect": 0.0,
+        "progression": {
+            "failing_eyesight": {
+				"chance": 0.014,
+				"when": "CONTINUING"
+			}
+        },
+        "risks": {
+            "dizziness": 0.1,
+			"headache": 0.05,
+			"cross_eyed": 0.005
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"low_blood_pressure": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 8, 24 ],
+        "mortality": {},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"hypotension": 0.5
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"high_blood_pressure": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 8, 24 ],
+        "mortality": {
+			"newborn": 0.02,
+            "kitten": 0.01,
+            "adolescent": 0.01,
+            "young adult": 0.02,
+            "adult": 0.02,
+            "senior adult": 0.04,
+            "senior": 0.05
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+            "hypertension": 0.5
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"fainting_disorder": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+		"genetic_only": false,
+        "moons_until_discovery": [ 2, 12 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+            "fainting": 0.1,
+			"dizziness": 0.15,
+			"headache": 0.1, 
+			"fatigue": 0.05,
+			"breathless_fit": 0.02,
+			"hypotension": 0.05
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"longcough": {
+        "severity": "minor",
+        "can_be_congenital": false,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 2, 12 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.15,
+        "progression": {
+        },
+        "risks": {
+            "whitecough": 0.05,
+			"silvercough": 0.05,
+			"fatigue": 0.1,
+			"nosebleed": 0.05,
+			"breathless_fit": 0.1,
+			"sore_throat": 0.15
+        },
+        "treatment_strength": {
+            "1": ["mullein"],
+            "2": ["betony"],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"bad_knee": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 6, 18 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+            "sore": 0.1,
+			"joint_pain": 0.1,
+			"acute_pain": 0.05,
+			"knee_locking": 0.08
+        },
+        "treatment_strength": {
+            "1": ["poppy", "moss"],
+            "2": ["daisy"],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"eczema": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 2, 5 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+            "rash": 0.25
+        },
+        "treatment_strength": {
+            "1": ["poppy"],
+            "2": ["elder_leaves"],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"ibs": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 2, 5 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+            "stomachache": 0.4,
+			"diarrhea": 0.2,
+			"constipation": 0.15,
+			"nausea": 0.1,
+			"abdominal_pain": 0.08
+        },
+        "treatment_strength": {
+            "1": ["ragwort"],
+            "2": ["mallow"],
+            "3": ["juniper"]
+        },
+        "possible_scars": []
+    },
+	"language_disorder": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 2, 6 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+            "auditory_processing_disorder": 0.02,
+			"selective_mutism": 0.02,
+			"verbal_shutdown": 0.1,
+			"word_loss": 0.4,
+			"parroting": 0.1
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"stutter": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 1, 30 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+            "verbal_shutdown": 0.02
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"autism": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+		"genetic_only": false,
+        "moons_until_discovery": [ 2, 6 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+			
+        },
+        "risks": {
+            "special_interest": 0.05,
+			"hyperfixation": 0.02,
+			"stimming": 0.1,
+			"overstimulation": 0.06,
+			"understimulation": 0.05,
+			"meltdown": 0.05,
+			"shutdown": 0.05,
+			"masking": 0.1,
+			
+			"dyslexia": 0.01,
+			"dyscalculia": 0.01, 
+			"hyperempathy": 0.008,
+			"low_empathy": 0.008,
+			"face_blindness": 0.01,
+			"selective_mutism": 0.01,
+			"hyperphantasia": 0.02,
+			"echolalia": 0.02		
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"adhd": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+		"genetic_only": false,
+        "moons_until_discovery": [ 3, 24 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+            "hyperactivity": 0.1,
+			"hyperfixation": 0.1,
+			"indescicion": 0.15,
+			"impulsivity": 0.1,
+			"understimulation": 0.05,
+			"stimming": 0.33,
+			"word_loss": 0.05,
+			"info_loss": 0.05
+        },
+        "treatment_strength": {
+            "1": ["juniper"],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"dyslexia": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 6, 24 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"word_loss": 0.05,
+			"stutter": 0.005
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"dyscalculia": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 6, 12 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"tourettes": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+		"genetic_only": false,
+        "moons_until_discovery": [ 6, 14 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"tics": 0.2,
+			"tic_attack": 0.1,
+			"impulsivity": 0.1,
+			"absence": 0.02
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"delusional_disorder": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 5, 40 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"delusions": 0.2,
+			"anxiety_attack": 0.1,
+			"panic_attack": 0.05,
+			"psychotic_episode": 0.03
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"dysthymia": {
+        "severity": "minor",
+        "can_be_congenital": false,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 6, 14 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"depressive_episode": 0.1,
+			"fatigue": 0.1,
+			"insomnia": 0.07,
+			"emotionally_numb": 0.15
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"anxiety": {
+        "severity": "minor",
+        "can_be_congenital": false,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 6, 14 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"anxiety_attack": 0.2,
+			"panic_attack": 0.1,
+			"paranoia": 0.1,
+			"indescicion": 0.08,
+			"sleep_paralysis": 0.03,
+			"stimming": 0.08,
+			"harmful_stims": 0.04,
+			"insomnia": 0.04
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"panic_disorder": {
+        "severity": "minor",
+        "can_be_congenital": false,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 6, 14 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"panic_attack": 0.3
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"ocd": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 6 , 24 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"obsessions": 0.5,
+			"compulsions": 0.5,
+			"hyperfixation": 0.1,
+			"body_focused_repetitive_disorder": 0.01,
+			"delusions": 0.15,
+			"psychotic_episode": 0.005
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"body_focused_repetitive_disorder": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 1, 4 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"torn_pelt": 0.1,
+			"small_cut": 0.1,
+			"harmful_stims": 0.05,
+			"scrapes": 0.05
+			
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"hoarding_disorder": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 10, 48 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"obsessions": 0.1,
+			"compulsions": 0.1,
+			"anxiety_attack": 0.15,
+			"paranoia": 0.05,
+			"indesicion": 0.1
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"mute": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 1, 3 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"did": {
+        "severity": "minor",
+        "can_be_congenital": false,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 1, 3 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"anxiety_attack": 0.1,
+			"info_loss": 0.15,
+			"depersonalization": 0.08,
+			"derealization": 0.08,
+			"amnesia": 0.2
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"osdd": {
+        "severity": "minor",
+        "can_be_congenital": false,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 1, 3 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"anxiety_attack": 0.1,
+			"amnesia": 0.025,
+			"depersonalization": 0.025,
+			"derealization": 0.025
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"dpdr": {
+        "severity": "minor",
+        "can_be_congenital": false,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 1, 3 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"depersonalization": 0.25,
+			"derealization": 0.25,
+			"emotionally_numb": 0.1,
+			"amnesia": 0.05,
+			"brain_fog": 0.05,
+			"delusions": 0.03
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"alexithymia": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 3, 21 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"emotionally_numb": 0.1
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"restless_leg": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 1, 12 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"sore": 0.1,
+			"insomnia": 0.05
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"paranoid_personality_disorder": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+		"genetic_only": false,
+        "moons_until_discovery": [ 12, 36 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"paranoia": 0.25,
+			"anxiety_attack": 0.1,
+			"meltdown": 0.05
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"schizoid_personality_disorder": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+		"genetic_only": false,
+        "moons_until_discovery": [ 6, 24 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"emotionally_numb": 0.25,
+			"low_empathy": 0.01
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"schizotypal_personality_disorder": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+		"genetic_only": false,
+        "moons_until_discovery": [ 12, 36 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+			
+        },
+        "risks": {
+			"anxiety_attack": 0.05,
+			"paranoia": 0.01
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"antisocial_personality_disorder": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+		"genetic_only": false,
+        "moons_until_discovery": [ 12, 36 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"compulsive_lying": 0.05,
+			"low_empathy": 0.025
+        },
+        "treatment_strength": {
+            "1": ["juniper"],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"borderline_personality_disorder": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+		"genetic_only": false,
+        "moons_until_discovery": [ 12, 36 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"favorite_person": 0.1,
+			"bpd_split": 0.1,
+			"paranoia": 0.035, 
+			"manic_episode": 0.1,
+			"depressive_episode": 0.1,
+			"derealization": 0.02,
+			"hallucinations": 0.01,
+			"catatonia": 0.01
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"histrionic_personality_disorder": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+		"genetic_only": false,
+        "moons_until_discovery": [ 18, 32 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"compulsive_lying": 0.05
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"narcissistic_personality_disorder": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+		"genetic_only": false,
+        "moons_until_discovery": [ 12, 36 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"compulsive_lying": 0.1,
+			"low_empathy": 0.05,
+			"manic_episode": 0.1,
+			"shutdown": 0.05
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"avoidant_personality_disorder": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+		"genetic_only": false,
+        "moons_until_discovery": [ 12, 36 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"anxiety_attack": 0.1,
+			"anxiety": 0.05,
+			"major_depressive_disorder": 0.01,
+			"dysthymia": 0.005,
+			"depressive_episode": 0.05
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"dependent_personality_disorder": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+		"genetic_only": false,
+        "moons_until_discovery": [ 12, 36 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"favorite_person": 0.1,
+			"anxiety_attack": 0.2,
+			"anxiety": 0.03
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"ocpd": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+		"genetic_only": false,
+        "moons_until_discovery": [ 12, 36 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"obsessions": 0.1,
+			"compulsions": 0.1,
+			"hoarding_disorder": 0.01,
+			"body_focused_repetitive_disorder": 0.01,
+			"indescicion": 0.15
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"hyperempathy": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 2, 14 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"low_empathy": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 2, 14 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"aphantasia": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 2, 80 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"hyperphantasia": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 2, 80 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"vivid_daydreams": 0.25
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"echolalia": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 2, 4 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"parroting": 0.3
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"face_blindness": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 6, 12 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"sensory_processing_disorder": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 2, 4 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"overstimulation": 0.15,
+			"understimulation": 0.15,
+			"light_sensitivity": 0.1
+			},
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"auditory_processing_disorder": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 2, 4 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"parroting": 0.1
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
+    },
+	"essential_tremor": {
+        "severity": "minor",
+        "can_be_congenital": true,
+        "can_be_acquired": true,
+		"genetic_only": false,
+        "moons_until_discovery": [ 4, 24 ],
+        "mortality": {
+		},
+        "immune_system_effect": 0.0,
+        "progression": {
+        },
+        "risks": {
+			"tremors": 0.5
+        },
+        "treatment_strength": {
+            "1": [],
+            "2": [],
+            "3": []
+        },
+        "possible_scars": []
     }
 }

@@ -1,0 +1,33 @@
+[
+    {
+        "event_id": "autism_low_empathy0",
+        "strings": [
+		"m_c has always struggled to empathize with {PRONOUN/m_c/poss} clanmates.",
+		            "m_c admits that {PRONOUN/m_c/subject} {VERB/m_c/have/has} never been able to read emotions, much less empathize with them.",
+            "Being autistic, m_c has never been able to connect with other cats in the same way. {PRONOUN/m_c/subject/CAP} may have low empathy."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "autism_low_empathy1",
+        "strings": [
+				            "When other cats vent to m_c, {PRONOUN/m_c/subject/CAP} tend to give solutions rather than comfort. r_c0 proposes that m_c has low empathy.",
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

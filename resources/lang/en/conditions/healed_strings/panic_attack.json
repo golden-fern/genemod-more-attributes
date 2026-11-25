@@ -1,0 +1,14 @@
+[
+    {
+        "event_id": "healed_panic_attack0",
+        "strings": [
+	        "Despite still struggling a little bit, m_c has mostly calmed down from {PRONOUN/m_c/poss} panic and feels able to take up {PRONOUN/m_c/poss} duties once more.",
+		"While {PRONOUN/m_c/poss} chest still races a bit as {PRONOUN/m_c/subject} {VERB/m_c/leave/leaves} the den, m_c is able to keep a clear head and rejoin {PRONOUN/m_c/poss} Clanmates.",
+		"With the help of {PRONOUN/m_c/poss} Clanmates, m_c has steadied {PRONOUN/m_c/poss} breathing once more and feels ready to face the challenges of the day.",
+		"m_c has recovered from {PRONOUN/m_c/poss} panic attack."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

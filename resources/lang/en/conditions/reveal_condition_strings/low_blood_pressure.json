@@ -1,0 +1,27 @@
+[
+    {
+        "event_id": "reveal_condition_low_blood_pressure0",
+        "strings": [
+		"r_c informs m_c that always feeling cold is a sign of low blood pressure.",
+		"r_c has diagnosed m_c with low blood pressure after yet another episode of dizziness."
+		]
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+                "status": [
+                    "healer"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "reveal_condition_low_blood_pressure1",
+        "strings": [
+	"m_c is always cold and dizzy, {PRONOUN/m_c/subject} may have low blood pressure."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "event_id": "reveal_condition_name0",
+        "strings": [
+		"m_c has always struggled to put {PRONOUN/m_c/poss} thoughts into words. {PRONOUN/m_c/subject} may have a language disorder.",
+		"m_c has a language disorder."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_name1",
+        "strings": [
+		"When m_c complains to r_c about struggling to understand what other cats say for the 5th time in 3 days, r_c gently suggests that m_c may have a language disorder."
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_name2",
+        "strings": [
+		"m_c is seeing r_c for a routine checkup when r_c notices that m_c has been struggling to understand verbal instructions. r_c diagnoses m_c with a language disorder."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

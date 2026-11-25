@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "gain_temporary_condition_paranoia0",
+        "strings": [
+			"m_c has been experiencing an episode of paranoia.",
+			"m_c can't seem to trust anything, even {PRONOUN/m_c/poss} own clanmates.",
+			"m_c has been much more paranoid than usual lately."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

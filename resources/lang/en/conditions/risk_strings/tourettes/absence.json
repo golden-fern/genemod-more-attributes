@@ -1,0 +1,32 @@
+[
+    {
+        "event_id": "tourettes_absence0",
+        "strings": [
+					"m_c is having a hard time thinking as {PRONOUN/m_c/subject} {VERB/m_c/look/looks} to no where.",
+			"m_c is mentally gone for the time being.",
+			"m_c hears the cats around {PRONOUN/m_c/object} but is having a hard time replying."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "tourettes_absence1",
+        "strings": [
+					"r_c0 assures m_c's friend that {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} just absent for the time being."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

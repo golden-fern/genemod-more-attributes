@@ -1,0 +1,14 @@
+[
+    {
+        "event_id": "paranoid_personality_disorder_meltdown0",
+        "strings": [
+		"m_c just can't hold it together anymore, all {PRONOUN/m_c/poss} anxieties have culminated int a meltdown.",
+		"m_c has a sudden breakdown in the middle of camp.",
+		"m_c snaps at a clanmate and immediately begins sobbing.",
+		"m_c is having a meltdown."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

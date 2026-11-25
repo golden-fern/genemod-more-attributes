@@ -1,0 +1,19 @@
+[
+    {
+        "event_id": "healed_seasonal_depression0",
+        "strings": [
+	        "m_c knows that {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} better then {PRONOUN/m_c/poss} mind, and with the change of seasons comes a new conviction to keep surviving.",
+		"m_c's recent bout of fatigue seems to have ended",
+		"As the weather warms, m_c finally feels able to blink the recent fatigue away.",
+		"m_c wakes to the new dawn with a lightness in {PRONOUN/m_c/poss} chest and paws that has long been missed.",
+		"With the sounds of the songbirds in {PRONOUN/m_c/poss} ears, m_c finds that the weight of fog over {PRONOUN/m_c/object} has risen.",
+		"As m_c observes the first growth of the season, {PRONOUN/m_c/subject} {VERB/m_c/feel/feels} like a new cat.",
+		"m_c feels {PRONOUN/m_c/poss} tail swish with rekindled hope and trust in {PRONOUN/m_c/poss} own paws.",
+		"As the season changes, the heavy weight in m_c's bones begins to fade. Finally, {PRONOUN/m_c/subject} {VERB/m_c/feel/feels} like {PRONOUN/m_c/subject} can rise with the sun rather than wishing it would leave {PRONOUN/m_c/object} to sleep.",
+		"m_c is no longer experiencing seasonal depression."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

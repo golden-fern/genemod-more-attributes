@@ -1,0 +1,30 @@
+[
+    {
+        "event_id": "language_disorder_auditory_processing_disorder0",
+        "strings": [
+		"m_c has always struggled to make out the words others say. {PRONOUN/m_c/subject} may have auditory processing disorder.",
+		"m_c often struggles to make out what {PRONOUN/m_c/poss} clanmates are saying, as it all sounds like a jumble to {PRONOUN/m_c/object}."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "language_disorder_auditory_processing_disorder01",
+        "strings": [
+		"r_c0 tells m_c that, while {PRONOUN/m_c/poss} auditory processing disorder is permanent, it won't be a problem for {PRONOUN/m_c/poss} clanmates to accomadate {PRONOUN/m_c/object}."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

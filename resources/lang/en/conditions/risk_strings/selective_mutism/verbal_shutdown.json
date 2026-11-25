@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "selective_mutism_verbal_shutdown0",
+        "strings": [
+			"m_c is experiencing a verbal shutdown.",
+			"m_c prefers to communicate with tail signals this moon.",
+			"m_c doesn't seem to be talking this moon."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

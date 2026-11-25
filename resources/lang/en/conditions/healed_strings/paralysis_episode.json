@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "healed_paralysis_episode0",
+        "strings": [
+            "m_c's paralysis episode has ended.",
+			"m_c is no longer paralyzed."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

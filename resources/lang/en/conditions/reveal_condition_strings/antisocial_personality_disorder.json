@@ -1,0 +1,38 @@
+[
+    {
+        "event_id": "reveal_condition_antisocial_personality_disorder0",
+        "strings": [
+		"m_c has never enjoyed being around other cats, and makes this known. {PRONOUN/m_c/subject/CAP} doesn't seem to understand why this upsets other cats.",
+		"m_c has always had a disregard for the rules. {PRONOUN/m_c/subject} may have antisocial personality disorder."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_antisocial_personality_disorder1",
+        "strings": [
+		"r_c gets into a huge fight with m_c: How dare m_c exploit {PRONOUN/r_c/object} like that? m_c, however, doesn't understand what {PRONOUN/m_c/subject} did wrong."
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_antisocial_personality_disorder2",
+        "strings": [
+		    "m_c has been getting into arguments with {PRONOUN/m_c/poss} clanmates recently. {PRONOUN/m_c/subject/CAP} {VERB/m_c/don't/doesn't} seem to understand what {PRONOUN/r_c/subject} did wrong, and don't seem bothered when other cats are upset with {PRONOUN/m_c/poss}. r_c understands {PRONOUN/m_c/subject} {VERB/m_c/are/is} not trying to upset anyone, {PRONOUN/m_c/subject} {VERB/m_c/are/is} just has antisocial personality disorder.",
+    "m_c has been having trouble enjoying the things around {PRONOUN/m_c/object}, especially around other cats. {PRONOUN/m_c/subject/CAP} {VERB/m_c/don't/doesn't} seem to enjoy being around others, and prefer to spend time on {PRONOUN/m_c/poss} own. m_c seems to be antisocial. {PRONOUN/m_c/subject/CAP} will still live a normal, happy life, the healer says, {PRONOUN/m_c/subject} just {VERB/m_c/enjoy/enjoys} solitude more than others."
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "event_id": "delusional_disorder_psychotic_episode0",
+        "strings": [
+		"m_c is experiencing a psychotic episode.",
+					"m_c is completely convinced that every cat in the Clan has it out for {PRONOUN/m_c/object}, despite any evidence to the contrary.",
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "delusional_disorder_psychotic_episode1",
+        "strings": [
+					"m_c insists to r_c that {PRONOUN/m_c/subject} {VERB/m_c/have/has} been chosen by StarClan to herald the end of the world - a terrifying prospect, but completely untrue."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

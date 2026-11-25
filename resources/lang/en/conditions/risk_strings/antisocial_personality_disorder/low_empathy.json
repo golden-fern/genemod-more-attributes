@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "antisocial_personality_disorder_low_empathy0",
+        "strings": [
+		"m_c struggles to feel empathy in the same way {PRONOUN/m_c/poss} clanmates do.",
+		"m_c has developed low empathy.",
+		"m_c has never really been an empathetic cat, {PRONOUN/m_c/subject} may have low empathy."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

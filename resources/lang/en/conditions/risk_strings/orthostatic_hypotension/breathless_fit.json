@@ -1,0 +1,30 @@
+[
+    {
+        "event_id": "orthostatic_hypotension_breathless_fit0",
+        "strings": [
+		"m_c struggled to catch {PRONOUN/m_c/poss} breath as {PRONOUN/m_c/subject} has a breathless fit.",
+		"m_c is having a breathless fit."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "orthostatic_hypotension_breathless_fit1",
+        "strings": [
+		"r_c watches over m_c, ensuring that {PRONOUN/m_c/subject} {VERB/m_c/are/is} safe during {PRONOUN/m_c/poss} breathless fit."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

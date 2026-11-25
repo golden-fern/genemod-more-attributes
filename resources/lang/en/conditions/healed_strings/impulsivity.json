@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "healed_impulsivity0",
+        "strings": [
+	        "m_c has a clear head and is thinking through {PRONOUN/m_c/poss} decisions once more.",
+		"While still a bit twitchy and eager, m_c has slowed down {PRONOUN/m_c/poss} decisions.",
+		"m_c is no longer impulsively jumping into everything headfirst."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

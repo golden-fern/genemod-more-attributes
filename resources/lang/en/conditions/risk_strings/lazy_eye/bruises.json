@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "lazy_eye_bruises0",
+        "strings": [
+		"m_c triped over a rock and ended up bruised.",
+		"m_c misjudged how far a wall was and ran into it, ending up with some bruises.",
+		"m_c has gotten some bruises."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

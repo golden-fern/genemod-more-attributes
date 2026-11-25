@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "dysthymia_depressive_episode0",
+        "strings": [
+					"m_c just can't seem to hold a line of thought these days.",
+"m_c is experiencing a depressive episode.",
+"m_c's depressive symptoms are worse than usual this moon."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

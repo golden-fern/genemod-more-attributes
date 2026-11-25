@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "language_disorder_selective_mutism0",
+        "strings": [
+		"m_c has been having more episodes of mutism that most would expect.",
+		"Sometime m_c goes silent for weeks or moons at a time, preferring to communicate with tail signals.",
+		"m_c has gotten quieter and quieter over the moons, eventually developing selective mutism."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

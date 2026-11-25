@@ -1,0 +1,16 @@
+[
+    {
+        "event_id": "schizoid_personality_disorder_emotionally_numb0",
+        "strings": [
+		"m_c can't seem to feel amotions as strongly lately.",
+		"m_c is emotionally numb.",
+					"Instead of feeling everything that m_c wishes that {PRONOUN/m_c/subject} didn't feel, m_c just feels numb.",
+			"m_c can barely feel a thing these days."
+			"m_c forgot that most cats get excited for new things."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "event_id": "death_ongoing_psychosis0",
+        "strings": [
+            "The medicine cat knows psychosis can lead to an increase in mortality, but finding m_c dead was unexpected.",
+			"The stresses of psychosis were too much for m_c."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        },
+        "death": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "history": "m_c died from ongoing psychosis."
+            }
+        ]
+    }
+]

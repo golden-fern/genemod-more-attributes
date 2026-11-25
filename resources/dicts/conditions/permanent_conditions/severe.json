@@ -12,7 +12,8 @@
             "torn_pelt": 0.3,
             "sore": 0.4,
             "joint_pain": 0.3,
-            "exhausted": 0.1
+            "exhausted": 0.1,
+			"temporary_weakness": 0.05
         },
         "treatment_strength": {
             "1": [
@@ -42,7 +43,12 @@
             "joint_pain": 0.05,
             "torn_pelt": 0.1,
             "selective_mutism": 0.05,
-            "weakened_muscles": 0.05
+            "absence": 0.1,
+			"emotionally_numb": 0.1,
+			"info_loss": 0.1,
+			"word_loss": 0.1,
+            "weakened_muscles": 0.05,
+			"exhausted": 0.05
         },
         "treatment_strength": {
             "1": [
@@ -55,6 +61,32 @@
             "3": [
                 "juniper",
                 "ragwort"
+            ]
+        }
+    },
+	"dementia": {
+        "severity": "severe",
+        "can_be_congenital": true,
+        "can_be_acquired": false,
+        "moons_until_discovery": [100,300],
+        "mortality": {
+			"senior adult": 0.1,
+            "senior": 0.2
+		},
+        "immune_system_effect": 0.0,
+        "progression": {},
+        "risks": {
+            "amnesia": 0.8,
+			"derealization": 0.6,
+			"depersonalization": 0.6,
+			"catatonia": 0.4
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
             ]
         }
     }

@@ -1,0 +1,30 @@
+[
+    {
+        "event_id": "visual_snow_migraine0",
+        "strings": [
+		"m_c's visual snow has caused {PRONOUN/m_c/object} to get a migraine."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "visual_snow_migraine1",
+        "strings": [
+		"m_c stumbles in to r_c0's den with {PRONOUN/m_c/poss} eyes shut tight, complaining of a splitting pain in {PRONOUN/m_c/poss} head.",
+		"m_c gets some herbs from r_c0 to ease the pain in {PRONOUN/m_c/poss} head."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

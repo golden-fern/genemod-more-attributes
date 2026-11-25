@@ -1,0 +1,38 @@
+[
+    {
+        "event_id": "reveal_condition_eczema0",
+        "strings": [
+		    "m_c's particularly grumpy, mostly because {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} constantly itching and in pain from a rash that refuses to leave."
+
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_eczema1",
+        "strings": [
+		    "r_c has noticed that m_c is often scratching at {PRONOUN/m_c/self} throughout the season, it would seem that {PRONOUN/m_c/subject} {VERB/m_c/have/has} a near constant recurring rash.",
+
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_eczema2",
+        "strings": [
+		    "No matter how much care m_c takes to follow the instructions given to {PRONOUN/m_c/object} by r_c, nothing seems to keep the rash away.",
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "healed_spasms0",
+        "strings": [
+	        "m_c has recovered from {PRONOUN/m_c/poss} spasms."
+			"m_c is no longer having spasms.",
+			"Despite some lingering twitching, m_c has recovered from {PRONOUN/m_c/poss} spasm."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

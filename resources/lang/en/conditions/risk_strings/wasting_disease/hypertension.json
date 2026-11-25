@@ -1,0 +1,11 @@
+[
+    {
+        "event_id": "wasting_disease_hypertension",
+        "strings": [
+		"m_c has gotten hypertension."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "albism_chronic_light_sensitivity0",
+        "strings": [
+		"m_c has always been more sensitive to light than {PRONOUN/m_c/poss} clanmates. Unfortunately, it may be permanent.",
+		"m_c's albinism has caused {PRONOUN/m_c/object to develop chronic light sensitivity."
+        ],
+        "involved_cats": {
+            "m_c": { }
+        }
+    }
+]

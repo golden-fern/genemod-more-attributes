@@ -1,0 +1,35 @@
+[
+    {
+        "event_id": "lasting_grief_major_depressive_disorder0",
+        "strings": [
+		"Upon {PRONOUN/m_c/poss} clanmates' suggestion, m_c goes to see r_c0. r_c0 diagnoses {PRONOUN/m_c/object} with major depressive disorder.",
+						"r_c0 helps m_c groom, purring all the while as comfortingly as {PRONOUN/r_c/subject} can. m_c just stares off into the distance, eyes almost seeming empty.",
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c0": {
+                "status": [
+                    "medicine cat"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "lasting_grief_major_depressive_disorder1",
+        "strings": [
+		"m_c's lasting grief has caused {PRONOUN/m_c/object} to develop major depressive disorder.",
+		"m_c has barely been able to leave {PRONOUN/m_c/poss} nest, even refusing food when it is brought to {PRONOUN/m_c/object}. {PRONOUN/m_c/subject/CAP} has major depressive disorder.",
+						"m_c's sadness has gone into numbness - something heavy weighs {PRONOUN/m_c/object} down as {PRONOUN/m_c/subject} {VERB/m_c/wander/wanders} listlessly around the camp.",
+				"The grief has become something numb, empty almost, as m_c stares at the walls of {PRONOUN/m_c/poss} den. {PRONOUN/m_c/subject/CAP} {VERB/m_c/don't/doesn't} know how {PRONOUN/m_c/subject} {VERB/m_c/are/is} supposed to get up after this.",
+				"m_c stalked out of camp, clawing at the ground as {PRONOUN/m_c/subject} went. It was so unfair, all of it, why did StarClan take them away? Why curse {PRONOUN/m_c/object} with this darkness inside?"
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "event_id": "allergies_anaphylaxis0",
+        "strings": [
+            "r_c0 gives m_c some herbs and hopes {PRONOUN/m_c/poss} anaphylactic attack ends quickly."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c0": {
+                "status": [
+                    "medicine cat"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "allergies_anaphylaxis1",
+        "strings": [
+		"m_c's allergies have given {PRONOUN/m_c/object} an anaphylactic attack!"
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

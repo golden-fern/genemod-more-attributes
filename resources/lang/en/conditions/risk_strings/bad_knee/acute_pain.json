@@ -1,0 +1,32 @@
+[
+    {
+        "event_id": "bad_knee_acute_pain0",
+        "strings": [
+					"A lot of m_c's Clanmates are worried about {PRONOUN/m_c/object} due to how m_c refuses to move from the sheer pain of it.",
+					"m_c has an intense, acute pain in {PRONOUN/m_c/poss} bad knee."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "bad_knee_acute_pain1",
+        "strings": [
+					"r_c0 grabs the poppy seeds to help the groaning pain from m_c."
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

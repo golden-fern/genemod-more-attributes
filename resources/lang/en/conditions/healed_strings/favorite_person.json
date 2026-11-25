@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "healed_favorite_person0",
+        "strings": [
+	        "After speaking with {PRONOUN/m_c/object}, the medicine cat has noticed that m_c is able to separate from {PRONOUN/m_c/poss} one special cat once more.",
+        "m_c is finally able to get {PRONOUN/m_c/poss} Clanmate out of {PRONOUN/m_c/poss} head, no longer lost in {PRONOUN/m_c/poss} thoughts of them, and allowing m_c to complete {PRONOUN/m_c/poss} duties again.",
+        "Finally, after a few moons, m_c is no longer lashing out at cats that get between {PRONOUN/m_c/object} and {PRONOUN/m_c/poss} favorite cat."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

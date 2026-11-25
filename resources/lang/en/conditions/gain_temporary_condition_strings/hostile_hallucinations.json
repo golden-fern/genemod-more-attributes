@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "gain_temporary_condition_hostile_hallucinations0",
+        "strings": [
+            "m_c feels like some cat is watching {PRONOUN/m_c/object} wherever they go. {PRONOUN/m_c/subject/CAP} {VERB/m_c/struggle/struggles} to leave camp without shaking in fear.",
+    "m_c keeps hearing voices threatening to hurt {PRONOUN/m_c/object} and {PRONOUN/m_c/poss} loved ones.",
+    "m_c sees angry faces in the shadows and monsters in the forest. {PRONOUN/m_c/subject/cap} {VERB/m_c/refuse/refuses} to leave the camp alone."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

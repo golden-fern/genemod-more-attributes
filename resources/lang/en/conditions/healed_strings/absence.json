@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "healed_absence0",
+        "strings": [
+	        "m_c has come back to {PRONOUN/m_c/self} after been absent.",
+		"Between blinks, m_c stretches out, continuing on {PRONOUN/m_c/poss} day as normal.",
+		"m_c's absence has ended."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "healed_anaphylaxis0",
+        "strings": [
+            "m_c has recovered from anaphylaxis.",
+			"m_c's anaphylaxis has ended."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

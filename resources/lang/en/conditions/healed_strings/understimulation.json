@@ -1,0 +1,29 @@
+[
+    {
+        "event_id": "healed_understimulation0",
+        "strings": [
+	        "m_c's no longer stressed and understimulated.",
+		"After utilizing some of {PRONOUN/m_c/poss} old toys from kittenhood m_c is no longer understimulated.",
+		"m_c's purring has helped {PRONOUN/m_c/object} stabilize {PRONOUN/m_c/poss} understimulation.",
+		"m_c's understimulation has ended."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "healed_understimulation1",
+        "strings": [
+	"r_c's purring has helped m_c to recover from {PRONOUN/m_c/poss} understimulation.",
+	"m_c's understimulation has recovered with r_c's help."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c": {
+				"relationship_status": [
+					"likes"
+				]
+			}
+        }
+    }
+]

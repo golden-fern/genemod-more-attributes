@@ -1,0 +1,20 @@
+[
+    {
+        "event_id": "death_hyperventilation0",
+        "strings": [
+            "m_c couldn't survive {PRONOUN/m_c/poss} hyperventilation.",
+			"m_c's breathing was too fast for {PRONOUN/m_c/poss} body to keep up.",
+        ],
+        "involved_cats": {
+            "m_c": {}
+        },
+        "death": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "history": "m_c died from hyperventilation."
+            }
+        ]
+    }
+]

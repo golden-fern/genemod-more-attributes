@@ -1,0 +1,31 @@
+[
+    {
+        "event_id": "longcough_nosebleed0",
+        "strings": [
+					"m_c has gotten a nosebleed."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "longcough_nosebleed1",
+        "strings": [
+					"In a bit of a panic, m_c goes to r_c0 about the blood {PRONOUN/m_c/subject} noticed in {PRONOUN/m_c/poss} coughs, but after a quick checkover, it's established to just be a nosebleed."
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

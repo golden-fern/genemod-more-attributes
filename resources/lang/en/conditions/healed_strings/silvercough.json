@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "healed_silvercough0",
+        "strings": [
+			"m_c has recovered from silvercough.",
+        "m_c no longer has silvercough.",
+        "m_c's silvercough is gone."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

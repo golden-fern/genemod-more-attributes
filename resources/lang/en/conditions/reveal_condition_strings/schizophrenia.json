@@ -1,0 +1,42 @@
+[
+    {
+        "event_id": "reveal_condition_schizophrenia0",
+        "strings": [
+		    "m_c often has strong beliefs that no other cat has, like how {PRONOUN/m_c/subject} can talk to birds or was once a powerful leader.",
+    "m_c cannot help but repeat what others say, {PRONOUN/m_c/subject} {VERB/m_c/have/has} to! {PRONOUN/m_c/poss/CAP} Clanmates think this is apart of something bigger.",
+	"m_c often gets {PRONOUN/m_c/poss} words jumbled up and talks about hearing things other cats can't see. {PRONOUN/m_c/subject} may have schizophrenia."
+
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_schizophrenia3",
+        "strings": [
+    "A queen in the nursery notices that m_c keeps on complaining about a scary monster which {PRONOUN/m_c/subject} can't see, and they speak to some other Clanmates about it."
+        "involved_cats": {
+            "m_c": {
+				"age": ["kitten"]
+			}
+        }
+    },
+    {
+        "event_id": "reveal_condition_schizophrenia2",
+        "strings": [
+		    "r_c notices that m_c sees and hears things that other cats can't, and suggests that {PRONOUN/m_c/subject} {VERB/m_c/have/has} schizophrenia.",
+    "Clanmates are worried about m_c, as sometimes the words {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} saying {VERB/m_c/are/is} gibberish, or {PRONOUN/m_c/subject}'ll stop randomly in a conversation. Paired with other factors, m_c speks to r_c and is diagnosed with schizophrenia.",
+	    "m_c is constantly worried that someone or something is after {PRONOUN/m_c/object}, and sometimes believes that cats have poisoned {PRONOUN/m_c/poss} prey or put thorns in {PRONOUN/m_c/poss} nest. {PRONOUN/m_c/poss/CAP} Clanmates talk to r_c about it."
+
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "event_id": "dysthymia_insomnia0",
+        "strings": [
+					"m_c has been having some trouble falling asleep.",
+			"m_c just can't seem to fall asleep."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "dysthymia_insomnia1",
+        "strings": [
+		"m_c visits r_c0 to get some herbs to help with {PRONOUN/m_c/poss} insomnia."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

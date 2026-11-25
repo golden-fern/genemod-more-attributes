@@ -1,0 +1,11 @@
+[
+    {
+        "event_id": "gain_temporary_condition_stroke0",
+        "strings": [
+	        "m_c has had a stroke."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

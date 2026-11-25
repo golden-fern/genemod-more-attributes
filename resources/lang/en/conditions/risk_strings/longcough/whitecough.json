@@ -1,0 +1,31 @@
+[
+    {
+        "event_id": "longcough_whitecough0",
+        "strings": [
+						"m_c always has a cough, it's no wonder that {PRONOUN/m_c/subject} missed when that cough became an illness."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "longcough_whitecough1",
+        "strings": [
+						"Unsurprisingly to r_c0, as whitecough season comes around m_c's longcough comes with {PRONOUN/m_c/object}, complaining of chills and aches."
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

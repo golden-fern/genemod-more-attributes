@@ -1,0 +1,21 @@
+[
+    {
+        "event_id": "death_strange_lump0",
+        "strings": [
+            "m_c's strange lump has killed {PRONOUN/m_c/object}.",
+			"m_c has died due to complications caused by {PRONOUN/m_c/poss} strange lump.",
+			"m_c has been killed by {PRONOUN/m_c/poss} strange lump."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        },
+        "death": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "history": "m_c died from a strange lump."
+            }
+        ]
+    }
+]

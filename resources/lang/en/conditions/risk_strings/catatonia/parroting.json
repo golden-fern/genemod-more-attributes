@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "catatonia_parroting0",
+        "strings": [
+		"m_c has been repeating nearly every sound {PRONOUN/m_c/subject} {VERB/m_c/hear/hears}.",
+		"Every time someone talks to m_c, {PRONOUN/m_c/subject} just {VERB/m_c/repeat/repeats) what was said before responding."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

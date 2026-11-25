@@ -1,0 +1,30 @@
+[
+    {
+        "event_id": "lazy_eye_blind_one_eye0",
+        "strings": [
+		"m_c's lazy eye has always had worse vision, so it isn't surprising when {PRONOUN/m_c/subject} ends up blind on that side.",
+		"m_c has gone blind in one eye."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "lazy_eye_blind_one_eye1",
+        "strings": [
+		"It turns out r_c's warnings of m_c possibly going blind in one eye <i>weren't</i> exaggeration."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

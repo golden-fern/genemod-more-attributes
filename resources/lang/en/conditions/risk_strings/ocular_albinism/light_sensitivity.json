@@ -1,0 +1,11 @@
+[
+    {
+        "event_id": "ocular_albism_light_sensitivity0",
+        "strings": [
+"m_c's eyes seem extra sensitive to light over the last few days.",
+"m_c can barely leave the den until nightfall because of {PRONOUN/m_c/poss} light sensitivity."        ],
+        "involved_cats": {
+            "m_c": { }
+        }
+    }
+]

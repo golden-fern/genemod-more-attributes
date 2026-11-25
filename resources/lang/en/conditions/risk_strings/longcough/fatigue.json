@@ -1,0 +1,31 @@
+[
+    {
+        "event_id": "longcough_fatigue0",
+        "strings": [
+						"m_c just feels so tired all of the time because of {PRONOUN/m_c/poss} persistent cough."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "longcough_fatigue1",
+        "strings": [
+						"With all of the coughing that m_c is doing, r_c0 worries that it might be causing {PRONOUN/m_c/object} fatigue."
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "language_disorder_mute0",
+        "strings": [
+		"Spoken language has never been easy for m_c, so it isn't really a surprise when {PRONOUN/m_c/subject} {VERB/m_c/tell/tells} the clan that {PRONOUN/m_c/subject} would rather communicate non-verbally.",
+"m_c has become mute.",
+"m_c has only spoke less and less as the moons went on. Eventually, {PRONOUN/m_c/subject} stopped speaking altogether."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

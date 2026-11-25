@@ -1,0 +1,31 @@
+[
+    {
+        "event_id": "autism_hyperempathy0",
+        "strings": [
+		"m_c has always felt the emotions {PRONOUN/m_c/poss} clanmates feel along with them. {PRONOUN/m_c/subject} may have hyperempathy.",
+		"Some autistic cats have higher empathy than normal, and m_c seems to be one of them.",
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "autism_hyperempathy1",
+        "strings": [
+				"When r_c0 expresses frustration at something, m_c becomes increasingly agitated at it along with {PRONOUN/r_c0/object}."
+"At r_c0's crying, m_c breaks into sobs along with {PRONOUN/r_c0/object}."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

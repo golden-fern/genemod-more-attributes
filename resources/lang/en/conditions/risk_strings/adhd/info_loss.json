@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "adhd_info_loss0",
+        "strings": [
+		"m_c has been forgetting small things all moon, and it's really annoying {PRONOUN/m_c/object}.",
+		"m_c has been experiencing some information loss.",
+		"m_c is struggling to remember things more than usual this moon."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "event_id": "healed_postpartum_depression0",
+        "strings": [
+	        "With much relief, m_c is feeling a bit more like {PRONOUN/m_c/self}.",
+		"m_c could almost cry as a weight {PRONOUN/m_c/subject} {VERB/m_c/were/was}n't fully conscious of seems to lift.",
+		"m_c purrs as {PRONOUN/m_c/poss} kittens roll around {PRONOUN/m_c/object}, finally feeling like {PRONOUN/m_c/subject} can move on.",
+		"Sometimes a bond isn't instant, and m_c finds that that's alright.",
+		"m_c's postpartum depression has ended."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

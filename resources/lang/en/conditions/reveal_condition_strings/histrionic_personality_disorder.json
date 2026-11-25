@@ -1,0 +1,39 @@
+[
+    {
+        "event_id": "reveal_condition_histrionic_personality_disorder0",
+        "strings": [
+		"m_c has always been easily influenced by others due to their need for approval. {PRONOUN/m_c/subject} may have histrionic personality disorder.",
+		"m_c's theatrical personality has only gotten more intense over the moons, leading the clan to believe {PRONOUN/m_c/subject} may have histrionic personality disorder.",
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_histrionic_personality_disorder1",
+        "strings": [
+		"When r_c calmly criticises something that m_c does, m_c breaks down sobbing in an overdramatic way. m_c may have histrionic personality disorder.",
+		"m_c keeps acting out, deliberately disobeying orders just to get attention, and r_c is fed up with it. {PRONOUN/m_c/subject} should have grown out of this by now, but the fact that {PRONOUN/m_c/subject} {VERB/m_c/haven't/hasn't) indicates that {PRONOUN/m_c/subject} may have histrionic personality disorder.",
+				"m_c falls into a deep depression when r_c gets attention instead of {PRONOUN/m_c/object}."
+
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_histrionic_personality_disorder2",
+        "strings": [
+		"When m_c finally gets dragged to r_c's den after intentionally causing a problem yet again, r_c diagnoses {PRONOUN/m_c/object} with histrionic personality disorder."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

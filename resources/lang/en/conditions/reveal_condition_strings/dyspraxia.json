@@ -1,0 +1,27 @@
+[
+    {
+        "event_id": "reveal_condition_dyspraxia0",
+        "strings": [
+		"m_c has had more issues with coordination than the other kits, often tripping over {PRONOUN/m_c/poss} paws. {PRONOUN/m_c/subject} may have dyspraxia.",
+		"m_c has not developed motor skills as fast as the other kits. {PRONOUN/m_c/subject} may have dyspraxia.",
+		"Much to m_c's frustration, {PRONOUN/m_c/poss} difficulties moving around likely won't go away as {PRONOUN/m_c/subject} {VERB/m_c/get/gets} older. m_c has dyspraxia."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_dyspraxia2",
+        "strings": [
+		"When a nursery queen brings m_c to r_c's den, concerned about {PRONOUN/m_c/poss} difficulty developing motor skills, r_c says that m_c just has dyspraxia."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

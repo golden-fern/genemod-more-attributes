@@ -1,0 +1,35 @@
+[
+    {
+        "event_id": "reveal_condition_avoidant_personality_disorder0",
+        "strings": [
+		"m_c's low self esteem and avoidance of other cats suggests that {PRONOUN/m_c/subject} may have avoidant personality disorder."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_avoidant_personality_disorder1",
+        "strings": [
+		"m_c has always avoided difficult situations for fear of rejection or failiure. r_c suggests that {PRONOUN?m_c/subject} may have avoidant personality disorder."
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_avoidant_personality_disorder2",
+        "strings": [
+		"r_c diagnosed m_c with avoidant personality disorder."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

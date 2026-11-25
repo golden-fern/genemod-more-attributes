@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "healed_migraine0",
+        "strings": [
+	        "m_c's migraine is gone.",
+			"m_c has recovered from {PRONOUN/m_c/poss} migraine."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

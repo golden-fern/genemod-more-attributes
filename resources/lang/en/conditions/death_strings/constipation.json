@@ -1,0 +1,19 @@
+[
+    {
+        "event_id": "death_constipation0",
+        "strings": [
+            "Turns out, m_c's constipation was actually an intestinal blockage - one that {PRONOUN/m_c/subject} could not survive."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        },
+        "death": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "history": "m_c died from constipation."
+            }
+        ]
+    }
+]

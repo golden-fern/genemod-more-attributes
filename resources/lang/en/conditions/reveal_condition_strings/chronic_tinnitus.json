@@ -1,0 +1,24 @@
+[
+    {
+        "event_id": "reveal_condition_chronic_tinnitus0",
+        "strings": [
+		"m_c goes to r_c asking what {PRONOUN/m_c/subject} can do to relieve the buzzing in {PRONOUN/m_c/object} ears. r_c informs {PRONOUN/m_c/object} that unfortunately, it is permanent."
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+                "status": [
+                    "healer"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "reveal_condition_chronic_tinnitus1",
+        "strings": [
+		"m_c's ears are always buzzing. {PRONOUN/m_c/subject} has chronic tinnitus."
+	],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "event_id": "reveal_condition_chronic_fatigue0",
+        "strings": [
+		"m_c seems to get fatigued much easier than other cats.",
+		"m_c has chronic fatigue."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_chronic_fatigue1",
+        "strings": [
+		"After m_c and r_c go on a patrol together and m_c is much more exhausted than any other cat would be, r_c suggests that {PRONOUN/m_c/subject} may have chronic fatigue."
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_chronic_fatigue2",
+        "strings": [
+		"r_c has diagnosed m_c with chronic fatigue."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

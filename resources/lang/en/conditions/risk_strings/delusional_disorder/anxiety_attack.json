@@ -1,0 +1,27 @@
+[
+    {
+        "event_id": "delusional_disorder_anxiety_attack0",
+        "strings": [
+		"m_c is having an anxiety attack.",
+		"m_c's has gotten all worked up into an anxiety attack over {PRONOUN/m_c/poss} delusions."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "delusional_disorder_anxiety_attack1",
+        "strings": [
+		"r_c0 gently halpe m_c to a safe spot while {PRONOUN/m_c/subject} has an anxiety attack.
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

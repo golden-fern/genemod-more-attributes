@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "twisted_leg_exhausted0",
+        "strings": [
+		"The effort of moving around on {PRONOUN/m_c/poss} twisted leg has left {PRONOUN/m_c/object} exhausted.",
+		"m_c is more tired than usual this moon."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

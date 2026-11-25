@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "dyslexia_stutter0",
+        "strings": [
+		"m_c has developed a stutter.",
+		"m_c struggles to get {PRONOUN/m_c/poss} words out.",
+		"m_c has been stuttering whenever {PRONOUN/m_c/subject} {VERB/m_c/speak/speaks}."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

@@ -9,7 +9,8 @@
         "side_effect": {},
         "progression": {},
         "risks": {
-            "torn_pelt": 0.3
+            "torn_pelt": 0.3,
+			"rash": 0.1
         },
         "treatment_strength": {
             "1": [
@@ -58,7 +59,10 @@
         "side_effect": {},
         "progression": {},
         "risks": {
-            "diarrhea": 0.3
+            "diarrhea": 0.3,
+			"constipation": 0.2,
+			"nausea": 0.2,
+			"abdominal_pain": 0.25
         },
         "treatment_strength": {
             "1": [
@@ -81,7 +85,13 @@
         "immune_system_effect": 0.0,
         "side_effect": {},
         "progression": {},
-        "risks": {},
+        "risks": {
+			"tremors": 0.2,
+			"fainting": 0.1,
+			"dizziness": 0.2,
+			"weakened_muscles": 0.15,
+			"exhausted": 0.15
+		},
         "treatment_strength": {
             "1": [
                 "thyme"
@@ -322,15 +332,17 @@
         "mortality": {
             "newborn": 0.05,
             "kitten": 0.05,
-            "adolescent": 0.05,
-            "young adult": 0.05,
-            "adult": 0.05,
-            "senior adult": 0.05,
+            "adolescent": 0.03,
+            "young adult": 0.01,
+            "adult": 0.01,
+            "senior adult": 0.03,
             "senior": 0.05
         },
         "infectiousness": 0.0,
         "immune_system_effect": 0.0,
-        "side_effect": {},
+        "side_effect": {
+			"anaphylaxis": 0.05
+		},
         "progression": {},
         "risks": {},
         "treatment_strength": {
@@ -353,7 +365,13 @@
         "infectiousness": 0.0,
         "immune_system_effect": 0.0,
         "side_effect": {},
-        "progression": {},
+        "progression": {
+			"migraine": {
+				"chance": 0.1,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
         "risks": {},
         "treatment_strength": {
             "1": [
@@ -473,14 +491,15 @@
     "fatigue": {
         "tags": [ ],
         "severity": "minor",
-        "duration": 2,
+        "duration": 1,
         "mortality": { },
         "infectiousness": 0.0,
         "immune_system_effect": 0.0,
         "side_effect": { },
         "progression": { },
         "risks": {
-            "exhausted": 0.1
+            "exhausted": 0.1,
+			"fainting": 0.1
         },
         "treatment_strength": {
             "1": [ ],
@@ -514,7 +533,9 @@
         "side_effect": { },
         "progression": { },
         "risks": { 
-            "infection": 0.2
+            "infection": 0.05,
+			"rash": 0.2,
+			"torn_pelt": 0.08
         },
         "treatment_strength": {
             "1": ["marigold", "burdock", "wild_garlic", "oak_leaves"],
@@ -536,7 +557,8 @@
             "sore": 0.3,
             "joint_pain": 0.3,
             "bruises": 0.2,
-            "sprain": 0.1
+            "sprain": 0.1,
+			"exhausted": 0.05
         },
         "treatment_strength": {
             "1": [
@@ -562,5 +584,763 @@
         "progression": {},
         "risks": {},
         "treatment_strength": {}
+    },
+	"tremors": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+			"essential_tremor": {
+				"chance": 0.1,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"anemia": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+			"exhausted": 0.6
+		},
+        "progression": {
+		},
+        "risks": {
+			"weakened_muscles": 0.1,
+            "tachycardia": 0.05
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"brain_fog": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 3,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"derealization": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+			"brain_fog": 0.1
+		},
+        "progression": {
+		},
+        "risks": {
+			"verbal_shutdown": 0.2,
+			"depersonalization": 0.05
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"depersonalization": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+			"brain_fog": 0.1
+		},
+        "progression": {
+		},
+        "risks": {
+			"verbal_shutdown": 0.2,
+			"amnesia": 0.1,
+			"derealization": 0.05
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"emotionally_numb": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"amnesia": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+			"brain_fog": 0.2,
+			"info_loss": 0.3,
+			"word_loss": 0.3
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"info_loss": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 1,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"word_loss": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 1,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"anxiety_attack": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+			"anxiety": {
+				"chance": 0.05,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+			"panic_attack": 0.1,
+			"paranoia": 0.05,
+			"nausea": 0.1
+        },
+        "treatment_strength": {
+            "1": [
+				"thyme"
+            ],
+            "2": [
+				"betony"
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"masking": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+			"meltdown": 0.1,
+			"shutdown": 0.1,
+			"burn_out": 0.15
+        },
+        "treatment_strength": {
+            "1": [
+				"chamomile"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"verbal_shutdown": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 3,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+			"selective_mutism": {
+				"chance": 0.05,
+				"when": "HEALED",
+				"allow_scar": false
+			},
+			"mute": {  
+				"chance": 0.025,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"betony"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"hyperfixation": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 6,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"impulsivity": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"special_interest": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 12,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"vivid_daydreams": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 1,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+			"hyperphantasia": {  
+				"chance": 0.01,
+				"when": "HEALED",
+				"allow_scar": false
+				}
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"chamomile"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"hyperactivity": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+			"bruises": 0.1
+        },
+        "treatment_strength": {
+            "1": [
+				"thyme"
+            ],
+            "2": [
+				"poppy"
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"tics": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 1,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+			"tic_attack": {
+				"chance": 0.015,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"obsessions": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 3,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+            "paranoia": 0.1
+        },
+        "progression": {
+		},
+        "risks": {
+			"anxiety_attack": 0.1,
+			"panic_attack": 0.05
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"compulsions": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 3,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+			"bruises": 0.05,
+			"harmful_stims": 0.05
+        },
+        "treatment_strength": {
+            "1": [
+				"rosemary"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"stimming": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 1,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+			"parroting": 0.2
+		},
+        "progression": {
+			"harmful_stims": {
+				"chance": 0.1,
+				"when": "HEALED",
+				"allow_scar": false
+			},
+			"body_focused_repetitive_disorder": {
+				"chance": 0.05,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"harmful_stims": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+			"body_focused_repetitive_disorder": {
+				"chance": 0.05,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+			"bruises": 0.2,
+			"claw_wound": 0.1,
+			"cat_bite": 0.1,
+			"broken_bone": 0.01,
+			"sprain": 0.1,
+			"sore": 0.2
+        },
+        "treatment_strength": {
+            "1": [
+				"catmint"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"parroting": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 3,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+			"echolalia": {
+				"chance": 0.05,
+				"when": "CONTINUING",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"goldenrod"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"delusions": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 3,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+			"schizophrenia": {
+				"chance": 0.005,
+				"when": "HEALED",
+				"allow_scar": false
+			},
+			"delusional_disorder": {
+				"chance": 0.01,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+			"psychotic_episode": 0.05,
+			"panic_attack": 0.1,
+			"hallucinations": 0.05,
+			"constant_nightmares": 0.2
+        },
+        "treatment_strength": {
+            "1": [
+				"juniper",
+				"ragwort"
+            ],
+            "2": [
+				"thyme"
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"earache": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 3,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+			"dizziness": 0.4,
+			"shock": 0.2
+		},
+        "progression": {
+			"partial_hearing_loss_one_ear": {
+				"chance": 0.05,
+				"when": "HEALED",
+				"allow_scar": false 
+			},
+			"chronic_tinnitus": {
+				"chance": 0.1,
+				"when": "HEALED",
+				"allow_scar": false 
+			}
+		},
+        "risks": {
+			"tinnitus": 0.1
+        },
+        "treatment_strength": {
+            "1": [
+				"juniper"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"minor_tinnitus": {
+        "tags": [],
+        "severity": "minor",
+        "duration": 1,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+			"tinnitus": {
+				"chance": 0.4,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
     }
 }

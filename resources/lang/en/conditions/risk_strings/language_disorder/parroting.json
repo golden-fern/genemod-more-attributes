@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "language_disorder_parroting0",
+        "strings": [
+		"m_c has been repeating the words said to {PRONOUN/m_c/object} back to whoever spoke them.",
+		"m_c is mimicing the noises {PRONOUN/m_c/subject} {VERB/m_c/hear/hears}.",
+		"m_c has been parroting whatever the cats around {PRONOUN/m_c/object} say."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

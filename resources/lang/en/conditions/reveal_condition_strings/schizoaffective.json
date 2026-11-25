@@ -1,0 +1,40 @@
+[
+    {
+        "event_id": "reveal_condition_schizoaffective0",
+        "strings": [
+    "m_c often has strong beliefs that no other cat has, like how {PRONOUN/m_c/subject} can talk to birds or was once a powerful leader. Paired with {PRONOUN/m_c/poss} erratic mood, {PRONOUN/m_c/subject} may have schizoaffective disorder.",
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_schizoaffective1",
+        "strings": [
+		    "r_c notices that m_c sees and hears things that other cats can't, and suggests that {PRONOUN/m_c/subject} {VERB/m_c/have/has} schizoaffective disorder.",
+			    "r_c notices m_c struggles with strong and intense emotions and symptoms of psychosis and thinks that {PRONOUN/m_c/subject} may have schizoaffective disorder.",
+
+
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_schizoaffective2",
+        "strings": [
+		"m_c's constant mood swings and irrational behavior leads {PRONOUN/m_c/object} to visit r_c, who diagnoses {PRONOUN/m_c/object} with schizoaffective disorder.",
+		    "Clanmates are worried about m_c, as sometimes the words {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} saying {VERB/m_c/are/is} gibberish, or {PRONOUN/m_c/subject}'ll stop randomly in a conversation. Paired with other factors, m_c speaks to r_c and is diagnosed with schizoaffective disorder.",
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

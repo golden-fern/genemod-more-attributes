@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "crooked_jaw_selective_mutism0",
+        "strings": [
+		"m_c's crooked jaw makes it harder to speak, and {PRONOUN/m_c/subject} often {VERB/m_c/prefer/prefers} to communicate with tail signals.",
+		"m_c has developed selective mutism.",
+		"Some days, when speaking with {PRONOUN/m_c/poss} crooked jaw is just too hard for m_c, {PRONPOUN/m_c/subject} {VERB/communicate/communicates} with tail signals instead."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

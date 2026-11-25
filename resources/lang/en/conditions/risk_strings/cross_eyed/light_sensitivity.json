@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "cross_eyed_sprain0",
+        "strings": [
+            "m_c's eyes are much more sensitive to light than usual this moon.",
+			"m_c winces as {PRONOUN/m_c/subject} {VERB/m_c/step/steps} outside, the sun being far too bright for {PRONOUN/m_c/poss} eyes."
+        ],
+        "involved_cats": {
+            "m_c": { }
+        }
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "healed_sleep_paralysis0",
+        "strings": [
+	        "m_c is no longer stuck in {PRONOUN/m_c/poss} nest, frozen awake.",
+		"With relief, m_c's recent bout of sleep paralysis seems to have passed.",
+		"m_c has recovered from {PRONOUN/m_c/poss} sleep paralysis."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

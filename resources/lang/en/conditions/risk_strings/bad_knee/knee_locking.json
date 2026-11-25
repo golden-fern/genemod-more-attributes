@@ -1,0 +1,31 @@
+[
+    {
+        "event_id": "bad_knee_knee_locking0",
+        "strings": [
+		"m_c's bad knee has begun to lock up."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "bad_knee_knee_locking1",
+        "strings": [
+					"r_c0 moves m_c to their den after {PRONOUN/m_c/poss} knees lock up from pain in the middle of camp."
+			"m_c tries to get up from {PRONOUN/m_c/poss} nest, but collapses back down into it before calling for r_c0."
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

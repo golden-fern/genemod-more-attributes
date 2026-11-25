@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "healed_knee_locking0",
+        "strings": [
+	        "m_c's knee is no longer locking up.",
+			"m_c's knee locking has ended."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

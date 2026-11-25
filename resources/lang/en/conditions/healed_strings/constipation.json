@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "healed_constipation0",
+        "strings": [
+	        "After longer than m_c would like to admit, {PRONOUN/m_c/poss} constipation has passed.",
+		"m_c's constipation has ended.",
+		"m_c is no longer constipated."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

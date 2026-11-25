@@ -1,0 +1,29 @@
+[
+    {
+        "event_id": "cross_eyed_chronic_light_sensitivity0",
+        "strings": [
+	"m_c's crossed eyes have cause {PRONOUN/m_c/object} to develop chronic light sensitivity."
+        ],
+        "involved_cats": {
+            "m_c": { }
+        }
+    },
+	{
+        "event_id": "cross_eyed_chronic_light_sensitivity1",
+        "strings": [
+            "r_c0 tells m_c that the light sensitivty may be a consequense of {PRONOUN/m_c/poss} crossed eyes, and {PRONOUN/m_c/subject} will likely just have to live with it."
+        ],
+        "involved_cats": {
+            "m_c": { },
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

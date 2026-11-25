@@ -1,0 +1,14 @@
+[
+    {
+        "event_id": "healed_insomnia0",
+        "strings": [
+	        "m_c is able to sleep again.",
+			"m_c's bout of insomnia has ended.",
+			"m_c is so relieved to just get a somewhat peaceful night's sleep once more.",
+		"Once more, m_c is able to sleep - at least, for now."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

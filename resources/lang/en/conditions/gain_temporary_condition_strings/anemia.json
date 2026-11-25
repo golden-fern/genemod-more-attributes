@@ -1,0 +1,25 @@
+[
+    {
+        "event_id": "gain_temporary_condition_anemia0",
+        "strings": [
+	        
+	"m_c has gotten anemia."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "gain_temporary_condition_anemia1",
+        "strings": [
+	        "m_c hasn't been feeling that well these days. r_c diagnoses {PRONOUN/m_c/object} with anemia. It should be temporary.",
+    "m_c feels colder than the rest of the clan. {PRONOUN/m_c/subject/CAP} {VERB/m_c/have/has} anemia. The healer says it's not permanent."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c": {
+				"status": ["healer", "healer apprentice"]
+			}
+        }
+    }
+]

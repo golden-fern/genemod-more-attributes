@@ -1,0 +1,14 @@
+[
+    {
+        "event_id": "healed_anemia0",
+        "strings": [
+	        "m_c has finally stopped feeling light headed. {PRONOUN/m_c/poss} anemia has ended.",
+		"m_c feels much better after {PRONOUN/m_c/poss} bout with anemia has ended.",
+		"m_c doesn't feel as cold anymore. {PRONOUN/m_c/poss} anemia has ended.",
+		"m_c no longer has anemia."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

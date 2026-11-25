@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "gain_temporary_condition_hyperactivity0"
+        "strings": [
+	        "m_c has been driving camp wild with {PRONOUN/m_c/poss} hyperactivity.",
+			"m_c has been hyperactive lately.",
+			"m_c seems to have more energy than {PRONOUN/m_c/subject} {VERB/m_c/know/knows} what to do with."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

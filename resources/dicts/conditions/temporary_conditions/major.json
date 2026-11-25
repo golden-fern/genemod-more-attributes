@@ -31,13 +31,13 @@
         "is_complication": true,
         "duration": 1,
         "mortality": {
-            "newborn": 0.6,
-            "kitten": 0.4,
-            "adolescent": 0.3,
-            "young adult": 0.2,
-            "adult": 0.2,
-            "senior adult": 0.3,
-            "senior": 0.4
+            "newborn": 0.4,
+            "kitten": 0.3,
+            "adolescent": 0.15,
+            "young adult": 0.1,
+            "adult": 0.1,
+            "senior adult": 0.15,
+            "senior": 0.3
         },
         "infectiousness": 0.0,
         "immune_system_effect": 0.0,
@@ -79,7 +79,9 @@
                 "allow_scar": false
             }
         },
-        "risks": {},
+        "risks": {
+			"rash": 0.15
+		},
         "treatment_strength": {
             "1": [
                 "marigold",
@@ -98,15 +100,15 @@
         "severity": "major",
         "duration": 3,
         "mortality": {
-            "newborn": 0.6,
-            "kitten": 0.5,
+            "newborn": 0.5,
+            "kitten": 0.4,
             "adolescent": 0.1,
             "young adult": 0.05,
             "adult": 0.05,
             "senior adult": 0.05,
             "senior": 0.1
         },
-        "infectiousness": 0.15,
+        "infectiousness": 0.2,
         "immune_system_effect": 0.0,
         "side_effect": {},
         "progression": {
@@ -114,10 +116,21 @@
                 "chance": 0.4,
                 "when": "CONTINUING",
                 "allow_scar": false
+            },
+			"silvercough": {
+                "chance": 0.2,
+                "when": "CONTINUING",
+                "allow_scar": false
+            },
+			"longcough": {
+                "chance": 0.1,
+                "when": "HEALED",
+                "allow_scar": false
             }
         },
         "risks": {
-            "sore_throat": 0.3
+            "sore_throat": 0.3,
+			"running_nose": 0.2
         },
         "treatment_strength": {
             "1": [
@@ -141,15 +154,15 @@
         "severity": "major",
         "duration": 3,
         "mortality": {
-            "newborn": 0.7,
-            "kitten": 0.6,
-            "adolescent": 0.3,
-            "young adult": 0.2,
-            "adult": 0.2,
-            "senior adult": 0.2,
-            "senior": 0.3
+            "newborn": 0.6,
+            "kitten": 0.5,
+            "adolescent": 0.25,
+            "young adult": 0.15,
+            "adult": 0.15,
+            "senior adult": 0.25,
+            "senior": 0.5
         },
-        "infectiousness": 0.25,
+        "infectiousness": 0.4,
         "immune_system_effect": 0.0,
         "side_effect": {},
         "progression": {
@@ -157,10 +170,17 @@
                 "chance": 0.5,
                 "when": "HEALED",
                 "allow_scar": false
+            },
+			"longcough": {
+                "chance": 0.2,
+                "when": "HEAlED",
+                "allow_scar": false
             }
         },
         "risks": {
-            "sore_throat": 0.1
+            "sore_throat": 0.1,
+			"running_nose": 0.2,
+			"breathless_fit": 0.1
         },
         "treatment_strength": {
             "1": [
@@ -193,7 +213,10 @@
                 "allow_scar": false
             }
         },
-        "risks": {},
+        "risks": {
+			"fainting": 0.1,
+			"dizziness": 0.2
+		},
         "treatment_strength": {
             "1": [
                 "juniper",
@@ -213,9 +236,16 @@
         "infectiousness": 0.0,
         "immune_system_effect": 0.0,
         "side_effect": {
-            "exhausted": 0.25
+            "exhausted": 0.25,
+			"insomnia": 0.15
         },
-        "progression": {},
+        "progression": {
+        	"chronic_nightmares": {  
+				"chance": 0.05,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
         "risks": {},
         "treatment_strength": {
             "1": [
@@ -296,7 +326,11 @@
                 "allow_scar": false
             }
         },
-        "risks": {},
+        "risks": {
+        	"headache": 0.2,
+			"rash": 0.3,
+			"joint_pain": 0.2
+		},
         "treatment_strength": {
             "1": [
                 "moss",
@@ -569,7 +603,8 @@
         "progression": {},
         "risks": {
             "infection": 0.5,
-            "festering_wound": 0.2
+            "festering_wound": 0.2,
+			"rat_bite_fever": 0.15
         },
         "treatment_strength": {
             "1": [
@@ -610,7 +645,13 @@
         "infectiousness": 0.0,
         "immune_system_effect": 0.0,
         "side_effect": {
-            "shock": 0.2
+            "shock": 0.2,
+			"anemia": 0.2,
+			"fainting": 0.1,
+			"dizziness": 0.1,
+            "hypotension": 0.1,
+            "brachycardia": 0.1,
+            "hypoventilation": 0.1
         },
         "progression": { },
         "risks": { },
@@ -642,7 +683,8 @@
         "side_effect": {
             "bruises": 0.2,
             "sore": 0.2,
-            "joint_pain": 0.2
+            "joint_pain": 0.2,
+			"acute_pain": 0.1
         },
         "progression": {
             "constant_joint_pain": {
@@ -786,7 +828,8 @@
         "infectiousness": 0.0,
         "immune_system_effect": 0.0,
         "side_effect": {
-            "blood_loss": 0.1
+            "blood_loss": 0.1,
+			"anemia": 0.1
         },
         "progression": {
             "temporary_weakness": {
@@ -875,7 +918,9 @@
         },
         "infectiousness": 0.0,
         "immune_system_effect": 0.0,
-        "side_effect": {},
+        "side_effect": {
+			"ashcough": 0.4
+		},
         "progression": {
             "temporary_weakness": {
                 "chance": 0.75,
@@ -933,7 +978,10 @@
                 "allow_scar": false
             }
         },
-        "risks": {},
+        "risks": {
+			"dizziness": 0.2,
+			"fainting": 0.1
+		},
         "treatment_strength": {
             "1": [
                 "ragwort"
@@ -961,12 +1009,12 @@
                 "allow_scar": false
             },
             "absent": {
-                "chance": 0.2,
+                "chance": 0.1,
                 "when": "CONTINUING",
                 "allow_scar": false
             },
             "selective_mutism": {
-                "chance": 0.2,
+                "chance": 0.1,
                 "when": "CONTINUING",
                 "allow_scar": false
             }
@@ -991,9 +1039,9 @@
         "mortality": {
             "newborn": 0.4,
             "kitten": 0.2,
-            "adolescent": 0.1,
-            "young adult": 0.05,
-            "adult": 0.05,
+            "adolescent": 0.05,
+            "young adult": 0.04,
+            "adult": 0.01,
             "senior adult": 0.1,
             "senior": 0.2
         },
@@ -1003,7 +1051,9 @@
         "progression": {},
         "risks": {
             "heat_exhaustion": 0.1,
-            "sore_throat": 0.1
+            "sore_throat": 0.1,
+			"brain_fog": 0.1,
+			"fainting": 0.15
         },
         "treatment_strength": {
             "1": [
@@ -1082,11 +1132,35 @@
                 "chance": 0.15,
                 "when": "HEALED",
                 "allow_scar": false
-            }
+            },
+			"dyspraxia": {
+				"chance": 0.1,
+				"when": "HEALED",
+				"allow_scar": false
+			},
+			"language_disorder": {
+				"chance": 0.05,
+				"when": "HEALED",
+				"allow_scar": false
+			},
+			"chronic_migraines": {
+				"chance": 0.05,
+				"when": "HEALED",
+				"allow_scar": false
+			}
         },
         "risks": {
             "headache": 0.4,
-            "severe_headache": 0.1
+            "severe_headache": 0.1,
+			"tremors": 0.1,
+			"brain_fog": 0.5,
+			"word_loss": 0.3,
+			"info_loss": 0.3,
+			"amnesia": 0.2,
+			"fainting": 0.33,
+			"dizziness": 0.5,
+			"light_sensitivity": 0.2,
+			"migraine": 0.1
         },
         "treatment_strength": {
             "1": [
@@ -1121,7 +1195,7 @@
         },
         "progression": {
             "redcough": {
-                "chance": 0.1,
+                "chance": 0.08,
                 "when": "CONTINUING",
                 "allow_scar": false
             },
@@ -1136,7 +1210,9 @@
                 "allow_scar": false
             }
         },
-        "risks": {},
+        "risks": {
+			"nausea": 0.2
+		},
         "treatment_strength": {
             "1": [
                 "dandelion",
@@ -1178,7 +1254,13 @@
         "infectiousness": 0.0,
         "immune_system_effect": 0.0,
         "side_effect": {},
-        "progression": {},
+        "progression": {
+        	"recovering_from_birth": {
+                "chance": 2.0,
+                "when": "HEALED",
+                "allow_scar": false
+            }
+           },
         "risks": {
             "exhausted": 0.05
         },
@@ -1204,7 +1286,8 @@
         "infectiousness": 0.0,
         "immune_system_effect": 0.2,
         "side_effect": {
-            "frostbite": 0.2
+            "frostbite": 0.2,
+            "brachycardia": 0.3
         },
         "progression": {},
         "risks": {},
@@ -1336,7 +1419,7 @@
             "senior adult": 0.02,
             "senior": 0.04
         },
-        "infectiousness": 0.0,
+        "infectiousness": 0.01,
         "immune_system_effect": 0.0,
         "side_effect": { },
         "progression": {
@@ -1378,5 +1461,1508 @@
             ],
             "3": []
         }
-    }   
+    },
+	"silvercough": {
+        "tags": ["illness"],
+        "severity": "major",
+        "duration": 3,
+        "mortality": {
+            "newborn": 0.1,
+            "kitten": 0.1,
+            "adolescent": 0.05,
+            "young adult": 0.015,
+            "adult": 0.02,
+            "senior adult": 0.1,
+            "senior": 0.1
+        },
+        "infectiousness": 0.2,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+            "redcough": {
+                "chance": 0.1,
+                "when": "CONTINUING",
+                "allow_scar": false
+            },
+			"longcough": {
+                "chance": 0.3,
+                "when": "HEALED",
+                "allow_scar": false
+            }
+        },
+        "risks": {
+            "sore_throat": 0.1,
+			"nosebleed": 0.01,
+			"greencough": 0.05
+        },
+        "treatment_strength": {
+            "1": [
+                "plantain",
+                "ragwort"
+            ],
+            "2": [
+                "tansy",
+				"mullein"
+            ],
+            "3": [
+                "lungwort",
+				"juniper"
+            ]
+        }
+    },
+	"fainting": {
+        "tags": [],
+        "severity": "major",
+        "duration": 1,
+        "mortality": {},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+			"head_damage": 0.1
+		},
+        "progression": { },
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"rat_bite_fever": {
+        "tags": ["illness"],
+        "severity": "major",
+        "duration": 4,
+        "mortality": {
+			"newborn": 0.2,
+            "kitten": 0.1,
+            "adolescent": 0.08,
+            "young adult": 0.05,
+            "adult": 0.02,
+            "senior adult": 0.05,
+            "senior": 0.1
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.25,
+        "side_effect": {},
+        "progression": { },
+        "risks": {
+            "headache": 0.2,
+			"sore": 0.1,
+			"torn_pelt": 0.05,
+			"weak_leg": 0.02
+        },
+        "treatment_strength": {
+            "1": [
+				"ragwort"
+            ],
+            "2": [
+				"oak_leaves"
+            ],
+            "3": [
+				"wild_garlic"
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"rash": {
+        "tags": [],
+        "severity": "major",
+        "duration": 3,
+        "mortality": {},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+			"eczema": {  
+				"chance": 0.01,
+				"when": "CONTINUING",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+            "torn_pelt": 0.05,
+			"anaphylaxis": 0.02
+        },
+        "treatment_strength": {
+            "1": [
+				"poppy"
+            ],
+            "2": [
+				"oak_leaves"
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"dizziness": {
+        "tags": [],
+        "severity": "major",
+        "duration": 2,
+        "mortality": {},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+			"constant_dizziness": {
+				"chance": 0.05,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"thyme"
+            ],
+            "2": [
+				"daisy"
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"spasms": {
+        "tags": [],
+        "severity": "major",
+        "duration": 2,
+        "mortality": {
+			"newborn": 0.1,
+            "kitten": 0.05,
+            "adolescent": 0.03,
+            "young adult": 0.01,
+            "adult": 0.01,
+            "senior adult": 0.03,
+            "senior": 0.05
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+			"bruises": 0.1,
+			"sore": 0.1
+        },
+        "treatment_strength": {
+            "1": [
+				"thyme",
+				"juniper"
+            ],
+            "2": [
+				"ragwort"
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"constipation": {
+        "tags": [],
+        "severity": "major",
+        "duration": 1,
+        "mortality": {
+			"newborn": 0.33,
+            "kitten": 0.15,
+            "adolescent": 0.03,
+            "young adult": 0.01,
+            "adult": 0.01,
+            "senior adult": 0.03,
+            "senior": 0.05
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"betony",
+				"juniper"
+            ],
+            "2": [
+				"mullein"
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"nausea": {
+        "tags": [],
+        "severity": "major",
+        "duration": 3,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+			"stomachache": 0.12
+        },
+        "treatment_strength": {
+            "1": [
+				"poppy",
+				"juniper"
+            ],
+            "2": [
+				"burdock"
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"abdominal_pain": {
+        "tags": [],
+        "severity": "major",
+        "duration": 3,
+        "mortality": {
+			"newborn": 0.1,
+            "kitten": 0.05,
+            "adolescent": 0.03,
+            "young adult": 0.01,
+            "adult": 0.01,
+            "senior adult": 0.03,
+            "senior": 0.05
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"poppy"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"acute_pain": {
+        "tags": [],
+        "severity": "major",
+        "duration": 3,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"poppy",
+				"marigold"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"knee_locking": {
+        "tags": [],
+        "severity": "major",
+        "duration": 2,
+        "mortality": {
+			"newborn": 0.001,
+            "kitten": 0.005,
+            "adolescent": 0.01,
+            "young adult": 0.01,
+            "adult": 0.05,
+            "senior adult": 0.1,
+            "senior": 0.3
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+			"head_damage": 0.01,
+			"broken_bone": 0.01
+        },
+        "treatment_strength": {
+            "1": [
+				"moss"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"subluxated_joint": {
+        "tags": [],
+        "severity": "major",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+			"bruises": 0.6,
+			"sore": 0.4,
+			"joint_pain": 0.5
+		},
+        "progression": {
+			"constant_joint_pain":{
+				"chance": 0.1,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+			
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"poppy"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        }
+    },
+	"sleep_paralysis": {
+        "tags": [],
+        "severity": "major",
+        "duration": 2,
+        "mortality": {
+			
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+			"constant_nightmares": 0.4,
+			"chronic_nightmares": 0.02  ,
+			"insomnia": 0.1
+        },
+        "treatment_strength": {
+            "1": [
+				"juniper"
+            ],
+            "2": [
+				"thyme"
+            ],
+            "3": [
+				"poppy"
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"insomnia": {
+        "tags": [],
+        "severity": "major",
+        "duration": 3,
+        "mortality": {
+			"newborn": 0.01,
+            "kitten": 0.01,
+            "adolescent": 0.005,
+            "young adult": 0.001,
+            "adult": 0.001,
+            "senior adult": 0.005,
+            "senior": 0.01
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.05,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+			"constant_nightmares": 0.2,
+			"chronic_nightmares": 0.1  ,
+			"hallucinations": 0.2,
+			"dizziness": 0.3,
+			"sleep_paralysis": 0.1,
+			"fainting": 0.15
+			
+        },
+        "treatment_strength": {
+            "1": [
+				"poppy"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"burn_out": {
+        "tags": [],
+        "severity": "major",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+			"fatigue": 0.1,
+			"anxiety_attack": 0.1			
+        },
+        "treatment_strength": {
+            "1": [
+				"thyme"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"absence": {
+        "tags": [],
+        "severity": "major",
+        "duration": 1,
+        "mortality": {
+			"newborn": 0.1,
+            "kitten": 0.05,
+            "adolescent": 0.03,
+            "young adult": 0.01,
+            "adult": 0.01,
+            "senior adult": 0.03,
+            "senior": 0.05
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {			
+        },
+        "treatment_strength": {
+            "1": [
+				"thyme",
+				"juniper"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"panic_attack": {
+        "tags": [],
+        "severity": "major",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+			"constant_nightmares": 0.3,
+			"shock": 0.1,
+			"anxiety_disorder": 0.05, 
+			"paranoia": 0.1,
+			"dizziness": 0.2,
+			"stimming": 0.5  
+        },
+        "treatment_strength": {
+            "1": [
+				"thyme",
+				"juniper"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"depressive_episode": {
+        "tags": [],
+        "severity": "major",
+        "duration": 4,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+			"understimulation": 0.2,
+			"shutdown": 0.1
+		},
+        "progression": {
+			"major_depressive_disorder": {
+				"chance": 0.02,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+			"indecision": 0.2,
+			"exhausted": 0.2
+        },
+        "treatment_strength": {
+            "1": [
+				"thyme",
+				"juniper"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"manic_episode": {
+        "tags": [],
+        "severity": "major",
+        "duration": 4,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+			"compulsive_lying": 0.1, 
+			"impulsivity": 0.6, 
+			"hyperactivity": 0.4, 
+			"stimming": 0.2, 
+			"harmful_stims": 0.1 
+        },
+        "treatment_strength": {
+            "1": [
+				"thyme",
+				"juniper"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"seasonal_depression": {
+        "tags": [],
+        "severity": "major",
+        "duration": 3,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+			"major_depressive_disorder": {
+				"chance": 0.05,
+				"when": "CONTINUING",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"thyme",
+				"juniper"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"bpd_split": {
+        "tags": [],
+        "severity": "major",
+        "duration": 3,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"thyme"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"favorite_person": {
+        "tags": [],
+        "severity": "major",
+        "duration": 3,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"thyme"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"compulsive_lying": {
+        "tags": [],
+        "severity": "major",
+        "duration": 1,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {},
+        "progression": {
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"thyme"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"indecision": {
+        "tags": [],
+        "severity": "major",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+			"overstimulation": 0.2,
+			"meltdown": 0.1,
+			"shutdown": 0.1
+		},
+        "progression": {
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"thyme"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"meltdown": {
+        "tags": [],
+        "severity": "major",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+			"overstimulation": 0.25
+		},
+        "progression": {
+		},
+        "risks": {
+			"stimming": 0.2,
+			"verbal_shutdown": 0.2,
+			"brain_fog": 0.15
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"shutdown": {
+        "tags": [],
+        "severity": "major",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+			"understimulation": 0.25
+		},
+        "progression": {
+		},
+        "risks": {
+			"stimming": 0.2,
+			"verbal_shutdown": 0.2,
+			"brain_fog": 0.15
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"overstimulation": {
+        "tags": [],
+        "severity": "major",
+        "duration": 2,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+			"meltdown": 0.15,
+			"shutdown": 0.1
+		},
+        "progression": {
+			"sensory_processing_disorder": {  
+				"chance": 0.1,
+				"when": "CONTINUING",
+				"allow_scar": false
+			},
+			"chronic_light_sensitivity": {  
+				"chance": 0.05,
+				"when": "CONTINUING",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+			"light_sensitivity": 0.2
+        },
+        "treatment_strength": {
+            "1": [
+				"poppy"
+            ],
+            "2": [
+				"thyme"
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"understimulation": {
+        "tags": [],
+        "severity": "major",
+        "duration": 3,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+			"shutdown": 0.2
+		},
+        "progression": {
+			"sensory_processing_disorder": {  
+				"chance": 0.1,
+				"when": "CONTINUING",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+			"anxiety_attack": 0.1
+        },
+        "treatment_strength": {
+            "1": [
+				"poppy"
+            ],
+            "2": [
+				"thyme"
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"tic_attack": {
+        "tags": [],
+        "severity": "major",
+        "duration": 1,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+		},
+        "progression": {
+		},
+        "risks": {
+			"bruises": 0.2,
+			"sore": 0.25,
+			"spasms": 0.4
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"hallucinations": {
+        "tags": [],
+        "severity": "major",
+        "duration": 3,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+			"meltdown": 0.2,
+			"sleep_paralysis": 0.1
+		},
+        "progression": {
+			"hostile_hallucinations": {
+				"chance": 0.1,
+				"when": "CONTINUING",
+				"allow_scar": false
+			},
+			"schizophrenia": {
+				"chance": 0.01,
+				"when": "HEALED",
+				"allow_scar": false
+			},
+			"schizoaffective": {
+				"chance": 0.005,
+				"when": "HEALED",
+				"allow_scar": false
+			},
+			"psychotic_episode": {
+				"chance": 0.15,
+				"when": "CONTINUING",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+			"constant_nightmares": 0.3,
+			"insomnia": 0.2
+        },
+        "treatment_strength": {
+            "1": [
+				"juniper",
+				"thyme"
+            ],
+            "2": [
+				"rosemary"
+            ],
+            "3": [
+				"poppy"
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"psychotic_episode": {
+        "tags": [],
+        "severity": "major",
+        "duration": 3,
+        "mortality": {
+			"newborn": 0.05,
+            "kitten": 0.02,
+            "adolescent": 0.01,
+            "young adult": 0.005,
+            "adult": 0.005,
+            "senior adult": 0.005,
+            "senior": 0.01
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+		},
+        "progression": {
+			"schizophrenia": {
+				"chance": 0.03,
+				"when": "HEALED",
+				"allow_scar": false
+			},
+			"schizoaffective": {
+				"chance": 0.01,
+				"when": "HEALED",
+				"allow_scar": false
+			},
+			"ongoing_psychosis": {
+				"chance": 0.2,
+				"when": "CONTINUING",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+			"hallucinations": 0.3,
+			"delusions": 0.2,
+			"word_loss": 0.5,
+			"info_loss": 0.1
+        },
+        "treatment_strength": {
+            "1": [
+				"juniper",
+				"ragwort"
+            ],
+            "2": [
+				"thyme"
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"tinnitus": {
+        "tags": [],
+        "severity": "major",
+        "duration": 1,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+		},
+        "progression": {
+			"chronic_tinnitus": {
+				"chance": 0.05,
+				"when": "HEALED",
+				"allow_scar": false
+			},
+			"minor_tinnitus": {
+				"chance": 0.3,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"juniper",
+				"ragwort"
+            ],
+            "2": [
+				"thyme"
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"light_sensitivity": {
+        "tags": [],
+        "severity": "major",
+        "duration": 1,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+		},
+        "progression": {
+			"chronic_light_sensitivity": {
+				"chance": 0.05,
+				"when": "HEALED",
+				"allow_scar": false
+			},
+			"failing_eyesight": {
+				"chance": 0.1,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"ragwort",
+				"juniper"
+            ],
+            "2": [
+				"marigold"
+            ],
+            "3": [
+				"oak_leaves"
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"migraine": {
+        "tags": [],
+        "severity": "major",
+        "duration": 3,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+		},
+        "progression": {
+			"chronic_light_sensitivity": {
+				"chance": 0.05,
+				"when": "HEALED",
+				"allow_scar": false
+			},
+			"sensory_processing_disorder": {
+				"chance": 0.01,
+				"when": "HEALED",
+				"allow_scar": false
+			},
+			"chronic_migraines": {
+				"chance": 0.05,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+			"nausea": 0.3,
+			"light_sensitivity": 0.4
+        },
+        "treatment_strength": {
+            "1": [
+				"poppy"
+            ],
+            "2": [
+				"dandelion"
+            ],
+            "3": [
+				"elder_leaves"
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"postpartum_depression": {
+        "tags": [],
+        "severity": "major",
+        "duration": 4,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.0,
+        "side_effect": {
+		},
+        "progression": {
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"thyme",
+				"juniper"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"fever": {
+        "tags": [],
+        "severity": "major",
+        "duration": 2,
+        "mortality": {
+			"newborn": 0.6,
+			"kitten": 0.25,
+			"adolescent": 0.1,
+			"young adult": 0.05,
+			"adult": 0.03,
+			"senior adult": 0.05,
+			"senior": 0.1
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.2,
+        "side_effect": {
+		},
+        "progression": {
+			"weakened_muscles": {
+				"chance": 0.1,
+				"when": "HEALED",
+				"allow_scar": false
+			},
+			"persistent_exhauastion": {
+				"chance": 0.1,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+			"dehydrated": 0.1,
+			"temporary_weakness": 0.8,
+			"exhausted": 0.6
+        },
+        "treatment_strength": {
+            "1": [
+				"yarrow",
+				"moss"
+            ],
+            "2": [
+				"thyme",
+                "elder_leaves"
+            ],
+            "3": [
+				"feverfew"
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"tachycardia": {
+        "tags": [],
+        "severity": "major",
+        "duration": 1,
+        "mortality": {
+			"newborn": 0.6,
+			"kitten": 0.25,
+			"adolescent": 0.1,
+			"young adult": 0.05,
+			"adult": 0.03,
+			"senior adult": 0.05,
+			"senior": 0.1
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.2,
+        "side_effect": {
+            "hypertension": 0.25,
+			"heart_attack": 0.02
+		},
+        "progression": {
+			"weakened_muscles": {
+				"chance": 0.1,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+				"moss"
+            ],
+            "2": [
+				"wild_garlic"
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"brachycardia": {
+        "tags": [],
+        "severity": "major",
+        "duration": 1,
+        "mortality": {
+			"newborn": 0.5,
+			"kitten": 0.2,
+			"adolescent": 0.08,
+			"young adult": 0.04,
+			"adult": 0.02,
+			"senior adult": 0.04,
+			"senior": 0.08
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.2,
+        "side_effect": {
+            "hypotension": 0.25,
+			"heart_attack": 0.02,
+            "dizziness": 0.1,
+            "exhausted": 0.5
+		},
+        "progression": {
+			"weakened_muscles": {
+				"chance": 0.1,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+			
+        },
+        "treatment_strength": {
+            "1": [
+				"moss"
+            ],
+            "2": [
+				"thyme"
+            ],
+            "3": [
+				"feverfew"
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"hypertension": {
+        "tags": [],
+        "severity": "major",
+        "duration": 1,
+        "mortality": {
+			"newborn": 0.3,
+			"kitten": 0.1,
+			"adolescent": 0.05,
+			"young adult": 0.02,
+			"adult": 0.03,
+			"senior adult": 0.05,
+			"senior": 0.1
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.2,
+        "side_effect": {
+			"headache": 0.5,
+			"nosebleed": 0.35,
+			"stroke": 0.02,
+			"seizure": 0.04,
+			"failing_eyesight": 0.01
+		},
+        "progression": {
+			"high_blood_pressure": {
+				"chance": 0.1,
+				"when": "HEALED",
+				"allow_scar": false
+			},
+            "heart_disease": {
+				"chance": 0.05,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+                "thyme"
+            ],
+            "3": [
+			"garlic"
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+	"hypotension": {
+        "tags": [],
+        "severity": "major",
+        "duration": 1,
+        "mortality": {
+			"newborn": 0.15,
+			"kitten": 0.05,
+			"adolescent": 0.025,
+			"young adult": 0.01,
+			"adult": 0.015,
+			"senior adult": 0.025,
+			"senior": 0.05
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.2,
+        "side_effect": {
+			"dizziness": 0.4,
+			"headache": 0.2,
+			"fainting": 0.05, 
+			"fatigue": 0.25,
+			"brain_fog": 0.05
+		},
+        "progression": {
+			"low_blood_pressure": {
+				"chance": 0.1,
+				"when": "HEALED",
+				"allow_scar": false
+			}
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+			"rosemary"
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+    "hyperventilation": {
+        "tags": [],
+        "severity": "major",
+        "duration": 1,
+        "mortality": {
+			"newborn": 0.15,
+			"kitten": 0.05,
+			"adolescent": 0.025,
+			"young adult": 0.01,
+			"adult": 0.015,
+			"senior adult": 0.025,
+			"senior": 0.05
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.1,
+        "side_effect": {
+		},
+        "progression": {
+		},
+        "risks": {
+            "dizziness": 0.2,
+			"breathless_fit": 0.2,
+            "tachycardia": 0.1
+        },
+        "treatment_strength": {
+            "1": [
+                "catmint"
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+    "hypoventilation": {
+        "tags": [],
+        "severity": "major",
+        "duration": 1,
+        "mortality": {
+			"newborn": 0.4,
+			"kitten": 0.2,
+			"adolescent": 0.1,
+			"young adult": 0.05,
+			"adult": 0.025,
+			"senior adult": 0.05,
+			"senior": 0.1
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.1,
+        "side_effect": {
+		},
+        "progression": {
+		},
+        "risks": {
+            "dizziness": 0.2,
+            "tachycardia": 0.1
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+			"thyme"
+            ]
+        },
+        "possible_scars": [
+        ]
+    },
+    "absent": {
+        "tags": [],
+        "severity": "major",
+        "duration": 3,
+        "mortality": {
+		},
+        "infectiousness": 0.0,
+        "immune_system_effect": 0.1,
+        "side_effect": {
+		},
+        "progression": {
+            "absence": {
+                "when": "HEALED",
+                "chance": 0.05,
+                "allow_scar": false
+            }
+		},
+        "risks": {
+        },
+        "treatment_strength": {
+            "1": [
+            ],
+            "2": [
+            ],
+            "3": [
+            ]
+        },
+        "possible_scars": [
+        ]
+    }
 }

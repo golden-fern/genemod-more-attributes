@@ -1,0 +1,24 @@
+[
+    {
+        "event_id": "reveal_condition_ehlers_danlos0",
+        "strings": [
+		"After m_c complains of a headache for the 3rd time this moon, r_c runs some tests and diagnoses {PRONOUN/m_c/object} with high blood pressure."
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+                "status": [
+                    "healer"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "reveal_condition_ehlers_danlos1",
+        "strings": [
+"m_c's headaches and nosebleeds that {PRONOUN/m_c/subject} though were normal point to something much more dangerous: {PRONOUN/m_c/subject} has high blood pressure."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

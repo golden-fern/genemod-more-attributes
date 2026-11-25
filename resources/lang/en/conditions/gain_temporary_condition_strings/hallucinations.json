@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "gain_temporary_condition_hallucinations0",
+        "strings": [
+	        "m_c has begun to hallucinate.",
+			"m_c is experiencing hallucinations."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

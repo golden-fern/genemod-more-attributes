@@ -1,0 +1,76 @@
+[
+    {
+        "event_id": "healed_depersonalization0",
+        "strings": [
+	        "m_c was finally able to ground {PRONOUN/m_c/self} and is no longer experiencing depersonalization.",
+		"m_c no longer feels detatched from {PRONOUN/m_c/poss} own body.",
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "healed_depersonalization1",
+        "strings": [
+	        "With the help of {PRONOUN/m_c/poss} mate, r_c, m_c is back in touch with {PRONOUN/m_c/self}."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c": {
+				"relationship_status": [
+				"mates"
+				]
+			}
+        }
+    },
+	{
+        "event_id": "healed_depersonalization2",
+        "strings": [
+	        "With the help of {PRONOUN/m_c/poss} friend, r_c, m_c is back in touch with {PRONOUN/m_c/self}."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c": {
+				"relationship_status": [
+				"likes"
+				]
+			}
+        }
+    },
+	{
+        "event_id": "healed_depersonalization3",
+        "strings": [
+	        "With the help of {PRONOUN/m_c/poss} parent, r_c, m_c is back in touch with {PRONOUN/m_c/self}."
+        ],
+        "involved_cats": {
+            "m_c": {
+				"age": [
+				"kitten",
+				"adolescent",
+				"young adult"
+				]
+			},
+			"r_c": {
+				"relationship_status": [
+				"parent"
+				]
+			}
+        }
+    },
+	{
+        "event_id": "healed_depersonalization4",
+        "strings": [
+	        "With the help of {PRONOUN/m_c/poss} sibling, r_c, m_c is back in touch with {PRONOUN/m_c/self}."
+        ],
+        "involved_cats": {
+            "m_c": {
+				
+			},
+			"r_c": {
+				"relationship_status": [
+				"siblings"
+				]
+			}
+        }
+    }
+]

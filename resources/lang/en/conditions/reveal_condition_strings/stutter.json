@@ -1,0 +1,37 @@
+[
+    {
+        "event_id": "reveal_condition_stutter0",
+        "strings": [
+		"m_c seems to have a stutter.",
+		"m_c has always struggled to speak as clearly as {PRONOUN/m_c/poss} clanmates. {PRONOUN/m_c/subject} may have a stutter.",
+		"m_c often stutters when {PRONOUN/m_c/subject} {VERB/m_c/speak/speaks}."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_stutter1",
+        "strings": [
+		"When m_c is talking with r_c, {PRONOUN/m_c/subject} keep repeating sounds and stumbling over {PRONOUN/m_c/poss} words. {PRONOUN/m_c/subject} may have a stutter."
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_stutter2",
+        "strings": [
+		"When m_c comes to r_c about {PRONOUN/m_c/poss} difficulties speaking clearly, the healer tells {PRONOUN/m_c/object} that {PRONOUN/m_c/subject} {VERB/m_c/have/has} a stutter."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "event_id": "hyperphantsaia_vivid_daydreams0",
+        "strings": [
+		"m_c keeps getting lost daydreaming in {PRONOUN/m_c/poss} head.",
+		"m_c is having particularly vivid daydreams.",
+		"m_c is having vivid daydreams.",
+		"m_c's daydreams have been particularly vivid lately."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "hyperphantsaia_vivid_daydreams1",
+        "strings": [
+		"m_c is so lost in {PRONOUN/m_c/poss} daydream that {PRONOUN/m_c/subject} hardly {VERB/m_c/notice/notices} r_c0 talking to {PRONOUN/m_c/object.}"
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

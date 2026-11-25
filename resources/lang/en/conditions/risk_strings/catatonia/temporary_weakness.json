@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "catatonia_temporary_weakness0",
+        "strings": [
+		"m_c's catatonia has left {PRONOUN/m_c/poss} muscles weak.",
+		"m_c's muscles have grown weak with disuse."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "event_id": "reveal_condition_narcissistic_personality_disorder0",
+        "strings": [
+		"m_c get abnormally agitated when the conversation is not about {PRONOUN/m_c/object}, and it's affecting {PRONOUN/m_c/poss} ability to keep friends.",
+		"m_c has always been willing to manipulate others to get what {PRONOUN/m_c/subject} {VERB/m_c/believe/believes} {PRONOUN/m_c/subject} {VERB/m_c/deserve/deserves}."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_narcissistic_personality_disorder1",
+        "strings": [
+				"m_c has always had an inflated ego, but shuts down at any critisicm. r_c suggests that {PRONOUN/m_c/subject} may have narcissistic personality disorder."
+
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_narcissistic_personality_disorder2",
+        "strings": [
+		"r_c gently suggests to m_c that maybe {PRONOUN/m_c/poss} need to be admired isn't healthy for {PRONOUN/m_c/object}. r_c diagnoses m_c with narcissistic personality disorder."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

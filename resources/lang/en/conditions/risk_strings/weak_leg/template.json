@@ -1,0 +1,27 @@
+[
+    {
+        "event_id": "weak_leg_condname0",
+        "strings": [
+			
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c0": {
+                "status": [
+                    "healer"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "weak_leg_condname1",
+        "strings": [
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

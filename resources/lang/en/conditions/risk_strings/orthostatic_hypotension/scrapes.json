@@ -1,0 +1,32 @@
+[
+    {
+        "event_id": "orthostatic_hypotension_scrapes0",
+        "strings": [
+			"m_c fell down to avoid fainting and got hurt in the process.",
+			"m_c got scraped up by sitting down too suddenly."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "orthostatic_hypotension_scrapes01",
+        "strings": [
+			"r_c asks what happened when m_c got all scraped up and m_c answered that {PRONOUN/m_c/subject} got scraped up in order to avoid fainting.",
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

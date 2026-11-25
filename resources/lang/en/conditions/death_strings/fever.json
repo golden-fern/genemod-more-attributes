@@ -1,0 +1,21 @@
+[
+    {
+        "event_id": "death_fever0",
+        "strings": [
+            "m_c couldn't survive {PRONOUN/m_c/poss} fever.",
+			"m_c has died from a fever.",
+			"m_c has been killed by {PRONOUN/m_c/object} fever."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        },
+        "death": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "history": "m_c died from a fever."
+            }
+        ]
+    }
+]

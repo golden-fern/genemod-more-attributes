@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "healed_subluxated_joint0",
+        "strings": [
+	        "m_c's subluxated joint has recovered.",
+			"m_c has recovered from having a subluxated joint.",
+		"m_c's joint has been gently moved back into place and is feeling much better now."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

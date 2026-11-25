@@ -1,0 +1,30 @@
+[
+    {
+        "event_id": "catatonia_fever0",
+        "strings": [
+		"m_c's catatonia has caused {PRONOUN/m_c/object} to develop a fever."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "catatonia_fever1",
+        "strings": [
+		"r_c0 worries about the fever m_c has developed. It could be a sign of something more serious being disrupted by {PRONOUN/m_c/poss} catatonia.",
+		"r_c0 tries to keep m_c cool, hoping this fever passes soon."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

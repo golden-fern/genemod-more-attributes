@@ -1,0 +1,42 @@
+[
+    {
+        "event_id": "reveal_condition_major_depressive_disorder0",
+        "strings": [
+		    "m_c has seemed more sluggish then {PRONOUN/m_c/poss} clanmates, less energetic. Less focused on the reality and more lost in {PRONOUN/m_c/poss} thoughts.",
+    "Sometimes m_c struggles to even get out of {PRONOUN/m_c/poss} nest in the mornings, weighed down by a heavy air in {PRONOUN/m_c/poss} heart."
+
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_major_depressive_disorder1",
+        "strings": [
+		    "r_c wonders why m_c won't play with anyone, and they try to become friends and play with {PRONOUN/m_c/object}. m_c agrees to play with them, but don't seem too energetic about it.",
+    "m_c hides from {PRONOUN/m_c/poss} denmates, much to the concern of r_c as they curl around {PRONOUN/m_c/object}, they couldn't do much but purr in an attempt to comfort {PRONOUN/m_c/object}.",
+
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_major_depressive_disorder2",
+        "strings": [
+		    "r_c is brought to the nursery by a worried parent, m_c wasn't running around and playing like the other kits, just curled in a ball staring blankly at the wall. After some gentle talking with m_c, r_c sits back and softly explains {PRONOUN/r_c/subject} {VERB/r_c/think/thinks} it's major depressive disorder.",
+
+        ],
+        "involved_cats": {
+            "m_c": {
+				"age": ["kitten"]
+			},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

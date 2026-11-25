@@ -1,0 +1,37 @@
+[
+    {
+        "event_id": "reveal_condition_dependant_personality_disorder0",
+        "strings": [
+		"m_c has always acted passive around others out of fear that they would leave, and {PRONOUN/m_c/subject} has always struggled to be alone. {PRONOUN/m_c/subject} may have dependant personality disorder.",
+		"m_c can't shas never seemed able to make a desicion without seeking the counsel of another cat first, citing a fear that {PRONOUN/m_c/subject} could be wrong."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_dependant_personality_disorder1",
+        "strings": [
+		"m_c is unable to seperate {PRONOUN/m_c/self} from r_c. No matter how hard r_c tries, {PRONOUN/r_c/subject} just can't convince m_c that {PRONOUN/m_c/subject} can take care of {PRONOUN/m_c/self}.",
+		"m_c insists that {PRONOUN/m_c/subject} {VERB/m_c/need/needs} r_c to care for them. r_c worries that m_c might have dependant personality disorder."
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_dependant_personality_disorder2",
+        "strings": [
+		"After m_c comes to r_c for the fourth time this week, asking for help on a mundane problem, r_c suggests that {PRONOUN/m_c/subject} may have dependant personality disorder."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

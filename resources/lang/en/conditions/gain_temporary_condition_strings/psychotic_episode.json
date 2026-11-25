@@ -1,0 +1,21 @@
+[
+    {
+        "event_id": "gain_temporary_condition_psychotic_episode0",
+        "strings": [
+    "m_c rambles about visions of StarClan and the end of the world, despite {PRONOUN/m_c/poss} Clanmates' reassurance.",
+    "m_c insists to {PRONOUN/m_c/poss} Clanmates that {PRONOUN/m_c/subject} can read minds - and that {PRONOUN/m_c/subject} {VERB/m_c/know/knows} some of them are plotting against {PRONOUN/m_c/object}.",
+"m_c is experiencing a psychotic episode."	
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+		"event_id": "gain_temporary_condition_psychotic_episode1",
+		"strings": [
+	        "m_c refuses to see r_c, citing a series of events that never happened. {PRONOUN/m_c/poss/CAP} erratic behavior may be a sign of psychosis.",
+		],
+		"involved_cats": {
+			"m_c": {},
+			"r_c": {}
+]

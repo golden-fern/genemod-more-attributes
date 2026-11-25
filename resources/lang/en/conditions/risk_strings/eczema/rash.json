@@ -1,0 +1,33 @@
+[
+    {
+        "event_id": "eczema_rash0",
+        "strings": [
+						"After m_c forgot to properly care for {PRONOUN/m_c/poss} pelt with the herbal paste, the rash that {PRONOUN/m_c/subject} {VERB/m_c/suffer/suffers} from has come back worse with a vengeance.",
+						"m_c has gotten a rash."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "eczema_rash1",
+        "strings": [
+						"Much to the frustration of both r_c0 and m_c, the rash on m_c has spread and returned to more places across {PRONOUN/m_c/poss} body.",
+				"Wincing m_c begs off patrol to go visit r_c0 for help putting {PRONOUN/m_c/poss} herbal paste on the areas that {PRONOUN/m_c/subject} just can't reach."
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c00": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

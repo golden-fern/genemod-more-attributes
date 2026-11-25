@@ -1,0 +1,28 @@
+[
+    {
+        "event_id": "allergies_runny_eyes0",
+        "strings": [
+		"m_c goes to r_c0 to get some herbs for {PRONOUN/m_c/poss} runny eyes."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c0": {
+                "status": [
+                    "medicine cat"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "allergies_runny_eyes1",
+        "strings": [
+			"m_c's allergies have left {PRONOUN/m_c/poss} eyes to become runny."
+			],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

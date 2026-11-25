@@ -1,0 +1,32 @@
+[
+    {
+        "event_id": "echolalia_parroting0",
+        "strings": [
+					"To nobody's surprise m_c is parroting {PRONOUN/m_c/poss} Clanmates again.",
+					"Whenever a clanmate talks to m_c, {PRONOUN/m_c/subject} repeat whatever they said right back.",
+					"m_c is parroting {PRONOUN/m_c/poss} clanmates."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "echolalia_parroting1",
+        "strings": [
+					"r_c0 purrs in amusement when m_c parrots {PRONOUN/r_c0/poss} words back.",
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

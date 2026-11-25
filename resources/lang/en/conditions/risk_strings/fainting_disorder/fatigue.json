@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "fainting_disorder_fatigue0",
+        "strings": [
+		"m_c has been more fatigued than usual lately.",
+		"m_c is experiencing fatigue.",
+		"m_c has become fatigued."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

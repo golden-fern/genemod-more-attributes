@@ -1,0 +1,24 @@
+[
+    {
+        "event_id": "death_catatonia0",
+        "strings": [
+            "In m_c's catatonic state, {PRONOUN/m_c/subject} {VERB/m_c/were/was} unable to react to an attack by a predator and was killed.",
+			"m_c died while catatonic. The healer said it had to do with {PRONOUN/m_c/poss} heart, and there was nothing that could be done.",
+			"m_c's catatonic state left {PRONOUN/m_c/object} unable to breathe, and despite the healer's efforts, {PRONOUN/m_c/subject} could not be saved.",
+			"m_c was catatonic for too long and became dehydrated. {PRONOUN/m_c/subject} was unable to recover.",
+			"m_c died from catatonia.",
+			"m_c died while catatonic."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        },
+        "death": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "history": "m_c died from catatonia."
+            }
+        ]
+    }
+]

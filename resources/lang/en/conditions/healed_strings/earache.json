@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "healed_earache0",
+        "strings": [
+	        "m_c's earache has let up.",
+			"m_c no longer has an earache.",
+			"m_c's ear no longer aches."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

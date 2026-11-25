@@ -1,0 +1,30 @@
+[
+    {
+        "event_id": "restless_leg_sore0",
+        "strings": [
+		"m_c's leg is sore from how much it moves in {PRONOUN/m_c/poss} sleep.",
+		"m_c's leg is sore this moon."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "restless_leg_sore1",
+        "strings": [
+		"r_c0 gives m_c some herbs for {PRONOUN/m_c/poss} sore leg."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

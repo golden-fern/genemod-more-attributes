@@ -1,0 +1,36 @@
+[
+    {
+        "event_id": "reveal_condition_delusional_disorder0",
+        "strings": [
+		"For as long as m_c can remember, {PRONOUN/m_c/subject} have had delusional beliefs that {PRONOUN/m_c/subject} just couldn't let go of.",
+		"It seems m_c's delusions were not just a one-time thing. {PRONOUN/m_c/subject} {VERB/m_c/mave/has} delusional disorder."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_delusional_disorder1",
+        "strings": [
+		"After seeing m_c hold a clearly false belief for the second time this week, r_c gently suggests that m_c may have delusional disorder."
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_delusional_disorder2",
+        "strings": [
+"The healer has diagnosed m_c with delusional disorder."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

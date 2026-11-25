@@ -1,0 +1,36 @@
+[
+    {
+        "event_id": "reveal_condition_fainting_disorder0",
+        "strings": [
+    "r_c is shocked to find m_c collapsed on the ground. {PRONOUN/m_c/subject/CAP} {VERB/m_c/reveal/reveals} that this isn't the first time {PRONOUN/m_c/subject} {VERB/m_c/have/has} fainted."
+	]
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_fainting_disorder2",
+        "strings": [
+		"m_c has learned that the amount {PRONOUN/m_c/subject} faint is not normal, and {PRONOUN/m_c/subject} have fainting disorder."
+		]
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_fainting_disorder1",
+        "strings": [
+    "After the third time m_c faints, {PRONOUN/m_c/subject} finally {VERB/m_c/go/goes} to the healer. r_c tells {PRONOUN/m_c/object} that {PRONOUN/m_c/subject} may have fainting disorder.",
+    "r_c panics after seeing m_c faint in front of them. m_c admits this happens to {PRONOUN/m_c/object} whenever {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} dehydrated."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

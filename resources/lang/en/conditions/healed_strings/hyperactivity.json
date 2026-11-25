@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "healed_hyperactivity0"
+        "strings": [
+	        "m_c's bout of hyperactivity has ended.",
+			"m_c's clanmates breathe a sigh of relief as {PRONOUN/m_c/poss} hyperactivity comes to an end.",
+			"m_c is no longer hyperactive."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

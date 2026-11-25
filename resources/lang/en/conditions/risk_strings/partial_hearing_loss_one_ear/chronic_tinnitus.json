@@ -1,0 +1,28 @@
+[
+    {
+        "event_id": "partial_hearing_loss_chronic_tinnitus0",
+        "strings": [
+			"r_c0 sighs and informs m_c that the buzzing in {PRONOUN/m_c/poss} ears is likely permanent, and a consequence of {PRONOUN/m_c/poss} hearing loss."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c0": {
+                "status": [
+                    "healer"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "partial_hearing_loss_chronic_tinnitus1",
+        "strings": [
+		"m_c's hearing loss has left {PRONOUN/m_c/object} with chronic tinnitus."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "schizotypal_personality_disorder_anxiety_attack0",
+        "strings": [
+		"m_c has gotten an anxiety attack.",
+		"m_c had an anxiety attack while talking with some of {PRONOUN/m_c/poss} clanmates.",
+		"m_c seems more anxious than usual this moon."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

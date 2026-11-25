@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "gain_temporary_condition_seasonal_depression0",
+        "strings": [
+	        "m_c has been experiencing some seasonal depression lately.",
+	"This past season has weighed heavily on m_c, {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} experiencing some seasonal depression.",
+	"It looks like m_c has seasonal depression."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

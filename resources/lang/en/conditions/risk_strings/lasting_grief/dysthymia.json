@@ -1,0 +1,29 @@
+[
+    {
+        "event_id": "lasting_grief_dysthymia0",
+        "strings": [
+		"r_c0 diagnoses m_c with dysthymia from {PRONOUN/m_c/poss} lasting grief."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c0": {
+                "status": [
+                    "medicine cat"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "lasting_grief_dysthymia1",
+        "strings": [
+				"m_c stared blankly up at the sky, feeling less motivated to do anything, {PRONOUN/m_c/poss} mind fogged with grief and despair.",
+				"m_c's lasting grief has caused {PRONOUN/m_c/object} to develop dysthymia."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

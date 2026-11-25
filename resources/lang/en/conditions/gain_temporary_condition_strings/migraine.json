@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "gain_temporary_condition_migraine0",
+        "strings": [
+	        "m_c's has gotten a migraine.",
+			"m_c has been unable to leave the den, {PRONOUN/m_c/poss} migraine making every light and sound too much.",
+			"m_c stumbles in to the healer den, begging for some herbs to make the throbbing in {PRONOUN/m_c/poss} head stop, just for a moment."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "healed_minor_tinnitus0",
+        "strings": [
+	        "m_c's ears have stopped buzzing.",
+			"Despite how small it was, m_c is still relieved that {PRONOUN/m_c/poss} tinnitus has gone away."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

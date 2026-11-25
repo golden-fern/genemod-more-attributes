@@ -1,0 +1,30 @@
+[
+    {
+        "event_id": "born_without_leg_dislocated_joint0",
+        "strings": [
+		"m_c limps to r_c0's den to get {PRONOUN/m_c/poss} dislocated joint put back into place."
+			],
+        "involved_cats": {
+            "m_c": {},
+            "r_c0": {
+                "status": [
+                    "medicine cat"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "born_without_leg_dislocated_joint1",
+        "strings": [
+            "m_c has spent {PRONOUN/m_c/poss} whole life with only three legs, but that doesn't mean {PRONOUN/m_c/subject} never {VERB/m_c/feel/feels} the strain of moving in a way {PRONOUN/m_c/poss} body wasn't meant to. This moon's activities have left m_c with a dislocated joint.",
+			"Though m_c has lived without a leg {PRONOUN/m_c/poss} whole life, sometimes {PRONOUN/m_c/subject} still {VERB/m_c/struggle/struggles} to compensate. m_c has dislocated a joint.",
+			"m_c has dislocated a joint."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

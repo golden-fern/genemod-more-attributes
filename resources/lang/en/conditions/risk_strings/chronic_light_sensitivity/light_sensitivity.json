@@ -1,0 +1,33 @@
+[
+    {
+        "event_id": "chronic_light_sensitivity_light_sensitivity0",
+        "strings": [
+		"m_c's eyes are much more sensitive to light that usual.",
+		"As soon as m_c steps out of the den, {PRONOUN/m_c/subject} yowls and retreats back to the shadows.",
+		"m_c's sensitive eyes have been acting up again."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "chronic_light_sensitivity_light_sensitivity1",
+        "strings": [
+		"r_c0 recommends m_c to stay in {PRONOUN/m_c/poss} den, at least until sundown, to allow this episode of light sensitivity to pass."
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

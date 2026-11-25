@@ -1,0 +1,39 @@
+[
+    {
+        "event_id": "reveal_condition_body_focused_repetitive_disorder0",
+        "strings": [
+		    "m_c bites at {PRONOUN/m_c/poss} claws. It is possible that {PRONOUN/m_c/subject} {VERB/m_c/have/has} a body-focused repetitive disorder.",
+    "m_c keeps getting told to not to pick at {PRONOUN/m_c/poss} scabs but m_c doesn't even realize when {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} doing it.",
+    "m_c picks at {PRONOUN/m_c/poss} body when {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} stressed."
+
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "reveal_condition_body_focused_repetitive_disorder1",
+        "strings": [
+		"m_c has been picking at {PRONOUN/m_c/poss} skinn all day until r_c pulls {PRONOUN/m_c/object} aside and asks {PRONOUN/m_c/object} about it."
+		],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_body_focused_repetitive_disorder2",
+        "strings": [
+		    "After {PRONOUN/m_c/poss} parent is informed that m_c doesn't realize when {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} pulling at {PRONOUN/m_c/poss} fur, m_c's parent drops {PRONOUN/m_c/object} off at the medicine den. r_c says that {PRONOUN/m_c/subject} {VERB/m_c/have/has} a body-focused repetitive disorder.",
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

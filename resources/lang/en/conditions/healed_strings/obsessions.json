@@ -1,0 +1,36 @@
+[
+    {
+        "event_id": "healed_obsessions0",
+        "strings": [
+	        "m_c is no longer suffering from obsessions.",
+			"With the help of {PRONOUN/m_c/poss} clanmates, m_c no longer obsesses over every little thing."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "healed_obsessions1",
+        "strings": [
+			"With the help of {PRONOUN/m_c/poss} friend, r_c, m_c no longer obsesses over every little thing."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c": {
+				"relationship_status": [ "likes" ]
+			}
+        }
+    },
+	{
+        "event_id": "healed_obsessions2",
+        "strings": [
+			"With the help of {PRONOUN/m_c/poss} friend, r_c, m_c no longer obsesses over every little thing."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c": {
+				"relationship_status": [ "mates" ]
+			}
+        }
+    }
+]

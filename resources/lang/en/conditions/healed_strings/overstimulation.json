@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "healed_overstimulation0",
+        "strings": [
+	        "m_c is no longer overstimulated.",
+			"m_c's overstimulation has ended."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

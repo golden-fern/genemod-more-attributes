@@ -1,0 +1,27 @@
+[
+    {
+        "event_id": "reveal_condition_dyslexia0",
+        "strings": [
+		"m_c has discovered that {PRONOUN/m_c/subject} {VERB/m_c/have/has} dyslexia."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_dyslexia2",
+        "strings": [
+		    "m_c frequently stumbles over {PRONOUN/m_c/poss} words. r_c suspects {PRONOUN/m_c/subject} may have dyslexia.",
+    "m_c can't get a sentence out and is almost brought to tears. This has become a pattern and r_c thinks that m_c has a jumbled mind."
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

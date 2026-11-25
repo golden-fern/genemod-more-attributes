@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "gain_temporary_condition_panic_attack0",
+        "strings": [
+	        "m_c is experiencing a panic attack.",
+			"m_c is having a panic attack."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

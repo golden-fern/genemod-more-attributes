@@ -1,0 +1,20 @@
+[
+    {
+        "event_id": "death_absence0",
+        "strings": [
+            "m_c died from {PRONOUN/m_c/poss} absence.",
+			"m_c died during {PRONOUN/m_c/poss} absence."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        },
+        "death": [
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "history": "m_c died from absence."
+            }
+        ]
+    }
+]

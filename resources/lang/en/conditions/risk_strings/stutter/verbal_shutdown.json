@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "stutter_verbal_shutdown0",
+        "strings": [
+		"m_c has gotten a verbal shtudown.",
+		"m_c, frustrated with how hard it is to get {PRONOUN/m_c/poss} words out, is experiencing a verbal shutdown."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

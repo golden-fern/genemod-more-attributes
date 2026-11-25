@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "healed_tremors0",
+        "strings": [
+	        "m_c's tremors have calmed down.",
+		"m_c's paws are no longer shaking as much. {PRONOUN/m_c/poss} tremors have ended."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "event_id": "partial_hearing_loss_tinnitus0",
+        "strings": [
+			"m_c goes to r_c0 complaining of buzzing in {PRONOUN/m_c/poss} ears."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c0": {
+                "status": [
+                    "healer"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    },
+    {
+        "event_id": "partial_hearing_loss_tinnitus1",
+        "strings": [
+		"m_c has gotten tinnitus.",
+		"m_c's ears have been buzzing all moon."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

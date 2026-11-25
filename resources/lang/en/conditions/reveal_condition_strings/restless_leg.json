@@ -1,0 +1,26 @@
+[
+    {
+        "event_id": "reveal_condition_restless_leg0",
+        "strings": [
+		"Despite {PRONOUN/m_c/poss} efforts to relax, {PRONOUN/m_c/subject} can't seem to shake the urge to move {PRONOUN/m_c/poss} legs.",
+		"m_c's constant leg movement has been bothering {PRONOUN/m_c/poss denmates for moons, but m_c can't seem to control it, no matter how hard {PRONOUN/m_c/subject} {VERB/m_c/try/tries}."
+		],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+    {
+        "event_id": "reveal_condition_restless_leg2",
+        "strings": [
+		"m_c goes to r_c to ask why {PRONOUN/m_c/subject} always {VERB/m_c/feel/feels} an urge to move {PRONOUN/m_c/poss} legs when {PRONOUN/m_c/subject} {VERB/m_c/sit/sits} down. r_c says that {PRONOUN/m_c/subject} may have restless leg syndrome."
+        ],
+        "involved_cats": {
+            "m_c": {},
+            "r_c": {
+				"status": [
+					"healer"
+				]
+			}
+        }
+    }
+]

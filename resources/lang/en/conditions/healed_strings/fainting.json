@@ -1,0 +1,54 @@
+[
+    {
+        "event_id": "healed_fainting0",
+        "strings": [
+	        "m_c woke up after fainting.",
+        "m_c blinks awake on the ground.",
+        "m_c blinks awake where {PRONOUN/m_c/subject} {VERB/m_c/were/was}."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "healed_fainting1",
+        "strings": [
+			"m_c has woken up in the healer den with r_c beside {PRONOUN/m_c/object}.",
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c": {
+				"status": [
+					"healer",
+					"healer_apprentice"
+				]
+			}
+        }
+    },
+	{
+        "event_id": "healed_fainting2",
+        "strings": [
+			"m_c has woken up with {PRONOUN/m_c/poss} mate, r_c, beside {PRONOUN/m_c/object}."        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c": {
+				"relationship_status": [
+					"mates"
+				]
+			}
+        }
+    },
+	{
+        "event_id": "healed_fainting4",
+        "strings": [
+			"m_c has woken up with {PRONOUN/m_c/poss} friend, r_c, beside {PRONOUN/m_c/object}."        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c": {
+				"relationship_status": [
+					"likes"
+				]
+			}
+        }
+    }
+]

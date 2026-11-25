@@ -1,0 +1,30 @@
+[
+    {
+        "event_id": "autism_risk0",
+        "strings": [
+"m_c has always struggled with numbers, {PRONOUN/m_c/subject} may have dyscalculia."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "autism_risk1",
+        "strings": [
+				            "Being autistic affects how m_c processes numbers. r_c0 assures {PRONOUN/m_c/object} that it's okay, m_c just has dyscalculia.",
+
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]
