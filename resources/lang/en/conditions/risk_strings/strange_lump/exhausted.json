@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "strange_lump_exhausted0",
+        "strings": [
+            "The smallest things have felt exhausting to m_c today.",
+            "m_c has been exhausted this moon.",
+            "m_c can barely bear to get out of {PRONOUN/m_c/poss} nest, {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} just too exhausted."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

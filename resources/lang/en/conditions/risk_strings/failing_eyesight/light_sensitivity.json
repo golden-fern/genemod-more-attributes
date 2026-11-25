@@ -1,0 +1,13 @@
+[
+    {
+        "event_id": "failing_eyesight_light_sensitivity0",
+        "strings": [
+            "m_c winces at the light of the sun.",
+            "m_c's failing eyesight has made {PRONOUN/m_c/object} more sensitive to light, and it's especially bad today.",
+            "m_c is experiencing pain at any bright light."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

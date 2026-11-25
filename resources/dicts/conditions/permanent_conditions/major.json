@@ -286,9 +286,6 @@
         "immune_system_effect": 0.0,
         "progression": {},
         "risks": {
-			"mute": 0.01,
-			"selective_mutism": 0.02,
-			"verbal_shutdown": 0.07
 		},
         "treatment_strength": {
             "1": [],

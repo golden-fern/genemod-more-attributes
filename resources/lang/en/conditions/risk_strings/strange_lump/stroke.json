@@ -1,0 +1,37 @@
+[
+    {
+        "event_id": "strange_lump_stroke0",
+        "strings": [
+            "m_c has had a stroke."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "strange_lump_stroke1",
+        "strings": [
+            "r_c1 rushes m_c to r_c0 after seeing the warning signs of a stroke."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            },
+            "r_c1": {
+                "age": [
+                    "adolescent", "adult", "young adult", "senior adult", "senior"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

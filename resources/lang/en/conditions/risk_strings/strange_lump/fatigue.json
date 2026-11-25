@@ -1,0 +1,12 @@
+[
+    {
+        "event_id": "strange_lump_fatigue0",
+        "strings": [
+            "m_c has been fatigued lately.",
+            "m_c has been experiencing fatigue."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    }
+]

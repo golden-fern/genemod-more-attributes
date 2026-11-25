@@ -1,0 +1,30 @@
+[
+    {
+        "event_id": "strange_lump_paralysis_episode0",
+        "strings": [
+            "m_c has had a paralysis episode.",
+            "m_c is having an episode of paralysis."
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "strange_lump_paralysis_episode1",
+        "strings": [
+            "r_c0 helps m_c to a more comfortable position until {PRONOUN/m_c/poss] paralysis episode ends."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]
