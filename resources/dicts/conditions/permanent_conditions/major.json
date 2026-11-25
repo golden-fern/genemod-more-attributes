@@ -357,8 +357,7 @@
 			"osdd1b": 0.002,
             "persistent_exhauastion": 0.05,
             "exhausted": 0.1,
-			"schizoaffective": 0.002,
-			"schizophrenia": 0.001
+            "shock": 0.05
         },
         "treatment_strength": {
             "1": [
@@ -500,7 +499,6 @@
             "severe_headache": 0.05,
             "constantly_dizzy": 0.01,
             "persistent_headaches": 0.01,
-			"dizziness": 0.05
         },
         "treatment_strength": {
             "1": [
@@ -790,19 +788,11 @@
 			"fatigue": 0.1,
 			"emotionally_numb": 0.1,
 			"amnesia": 0.05,
-			"depersonalization": 0.05,
-			"derealization": 0.05,
 			"paranoia": 0.05,
 			"depressive_episode": 0.1,
-			"alexythymia": 0.01,
-			"selective_mutism": 0.005,
 			"dpdr": 0.005,
-			"major_depressive_disorder": 0.005,
-			"schizoaffective": 0.003,
-			"schizophrenia": 0.002,
 			"did": 0.001,
-			"osdd1a": 0.0025,
-			"osdd1b": 0.0025,
+			"osdd": 0.0025,
 			"exhausted": 0.1
         },
         "treatment_strength": {

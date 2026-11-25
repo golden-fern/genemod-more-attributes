@@ -1,0 +1,32 @@
+[
+    {
+        "event_id": "recurring_shock_dpdr0",
+        "strings": [
+            "m_c just can't bring {PRONOUN/m_c/self} back to reality. {PRONOUN/m_c/subject/CAP} may have DPDR.",
+            "m_c seems to experience derealization much more than normal.",
+                        "m_c seems to experience depersonalization much more than normal."
+
+        ],
+        "involved_cats": {
+            "m_c": {}
+        }
+    },
+	{
+        "event_id": "recurring_shock_dpdr1",
+        "strings": [
+            "After a long talk, r_c0 diagnoses m_c with DPDR."
+        ],
+        "involved_cats": {
+            "m_c": {},
+			"r_c0": {
+                "status": [
+                    "healer",
+					"healer apprentice"
+                ],
+                "group": [
+                    "match:m_c"
+                ]
+            }
+        }
+    }
+]

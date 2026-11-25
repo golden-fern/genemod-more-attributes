@@ -42,7 +42,6 @@
         "risks": {
             "joint_pain": 0.05,
             "torn_pelt": 0.1,
-            "selective_mutism": 0.05,
             "absence": 0.1,
 			"emotionally_numb": 0.1,
 			"info_loss": 0.1,
